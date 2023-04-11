@@ -1,0 +1,58 @@
+{
+    "editor.tokenColorCustomizations": {
+        "comments": "#008010",
+        "functions": "#0020A0",
+        "keywords": "#001080",
+        "numbers": "#008080",
+        "strings": "#800080",
+        "types": "#005060",
+        "variables": "#100010",
+        "textMateRules": [
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#202090"
+                }
+            },
+            {
+                "scope": "keyword.other",
+                "settings": {
+                    "foreground": "#001080"
+                }
+            },
+            {
+                "scope": "constant",
+                "settings": {
+                    "foreground": "#008080"
+                }
+            },
+            {
+                "scope": "constant.character",
+                "settings": {
+                    "foreground": "#800080"
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Atom One Light]": {
+            "enabled": true,
+            "rules": {
+                "*.constant": "#906040",
+                "*.documentation": "#0080C0",
+                "*.injected": "#204060",
+                "*.intraDocLink": "#7080F0",
+                "attribute": "#0040C0",
+                "attributeBracket": "#001080",
+                "decorator": "#0070B0",
+                "formatSpecifier": "#006030",
+                "escapeSequence": "#D01080",
+                "lifetime": "#E0B000",
+                "parameter": "#000000",
+                "selfKeyword": "#B02020",
+                "selfTypeKeyword": "#B02020",
+                "namespace": "#000000"
+            }
+        }
+    }
+}

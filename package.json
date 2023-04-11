@@ -1,0 +1,21 @@
+{
+  "name": "what42s-rust-theme-light",
+  "displayName": "What42's Rust Theme (Light)",
+  "description": "My own theme for writing Rust code",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "What42's Rust Theme (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/What42's Rust Theme (Light)-color-theme.json"
+      }
+    ]
+  }
+}

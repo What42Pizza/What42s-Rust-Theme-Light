@@ -1,0 +1,17 @@
+[
+    {
+        "identifier": {
+            "id": "undefined_publisher.what42s-rust-theme-light"
+        },
+        "version": "1.0.0",
+        "location": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\Jonathan\\Desktop\\Stuff\\Programming\\what42s-rust-theme-light",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/Jonathan/Desktop/Stuff/Programming/what42s-rust-theme-light",
+            "path": "/c:/Users/Jonathan/Desktop/Stuff/Programming/what42s-rust-theme-light",
+            "scheme": "file"
+        },
+        "relativeLocation": "../../desktop/stuff/Programming/what42s-rust-theme-light"
+    }
+]
