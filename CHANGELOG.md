@@ -1,5 +1,11 @@
 # Change Log
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- 1.1.0 (23/04/11)
+  - Reworked token selection
+  - Added dark red color to 'mut'
+  - Added example images to README
+  - Added more data to package.json
+  - Tweaked many colors
 
-- 1.0.0 (04/10/23) Start
+- 1.0.0 (23/04/10)
+  - Start

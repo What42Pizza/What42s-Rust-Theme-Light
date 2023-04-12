@@ -1,21 +1,35 @@
 {
-  "name": "what42s-rust-theme-light",
-  "displayName": "What42's Rust Theme (Light)",
-  "description": "My own theme for writing Rust code",
-  "version": "1.0.0",
-  "engines": {
-    "vscode": "^1.77.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "What42's Rust Theme (Light)",
-        "uiTheme": "vs",
-        "path": "./themes/What42's Rust Theme (Light)-color-theme.json"
-      }
-    ]
-  }
+
+	"name": "what42s-rust-theme-light",
+	"displayName": "What42's Rust Theme (Light)",
+	"description": "My own theme for writing Rust code",
+	"version": "1.0.0",
+
+	"publisher": "What42Pizza",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/What42Pizza/what42s-rust-theme-light.git"
+	},
+
+	"categories": ["Themes"],
+	"keywords": [
+		"theme",
+		"light",
+		"rust"
+	],
+
+	"engines": {
+		"vscode": "^1.77.0"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "What42's Rust Theme (Light)",
+				"uiTheme": "vs",
+				"path": "./themes/What42's Rust Theme (Light)-color-theme.json"
+			}
+		]
+	}
+
 }
