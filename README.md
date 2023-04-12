@@ -1,13 +1,17 @@
 # What42's Rust Theme (Light)
 
-This is just my personal theme for VS Code, you can do whatever you want with it
+<br>
 
+### This is my personal theme for VS Code, focused mainly on readability.
+
+<br>
 <br>
 
 ## Example:
 
 ![Example](images/example.png)
 
+<br>
 <br>
 
 ## Entire screen example:
