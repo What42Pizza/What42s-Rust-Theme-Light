@@ -1,65 +1,64 @@
 {
 	"name": "What42's Rust Theme (Light)",
-
-
-
+	
+	
+	
 	"colors": {
-
+		
 		"foreground": "#000000",
 		"editor.background": "#FDFDFF",
 		"editor.foreground": "#000000",
-		"editorError.background": "#ff00000C",
+		"editorError.background": "#ff000008",
 		"editor.lineHighlightBackground": "#F0F0F4",
 		"editor.selectionHighlightBackground": "#00A0F030",
 		"editor.wordHighlightBackground": "#0000000D",
 		"editorHoverWidget.background": "#F9F9FB",
-
+		
 		"editorBracketHighlight.foreground1": "#0010B0",
 		"editorBracketHighlight.foreground2": "#007080",
 		"editorBracketHighlight.foreground3": "#008C60",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF0000",
 		"editorBracketMatch.background": "#E0E4FF",
-
+		
 		"editorInlayHint.background": "#F7F7F7",
 		"editorInlayHint.foreground": "#A0A0A0",
-
+		
 		"editor.findMatchBackground": "#0080E0A0",
 		"editor.findMatchHighlightBackground": "#0090E050",
 		"editor.rangeHighlightBackground": "#E0E4FF",
 		"editorOverviewRuler.findMatchForeground": "#0090E0",
 		"minimap.findMatchHighlight": "#0090E0",
-
+		
 		"activityBar.background": "#FFFFFF",
 		"activityBar.foreground": "#000000",
 		"activityBar.inactiveForeground": "#A0A0A0",
 		"activityBar.activeBackground": "#F0F0F0",
-
+		
 		"tab.inactiveBackground": "#F0F0F1",
 		"tab.inactiveForeground": "#404040",
 		"tab.activeBackground": "#FEFEFF",
 		"tab.activeForeground": "#000000",
 		"tab.hoverBackground": "#E9E9EB",
 		"editorGroupHeader.tabsBackground": "#F5F5F7",
-
-		//"editorLineNumber.activeForeground": "#107080",
+		
 		"editorLineNumber.activeForeground": "#0860F0",
 		"editorLineNumber.foreground": "#304040",
-
+		
 		"sideBar.background": "#F5F5F5",
 		"sideBar.foreground": "#000000",
 		"sideBarSectionHeader.background": "#EAEBEC",
-
+		
 		"list.activeSelectionBackground": "#0090E050",
 		"list.hoverBackground": "#0090E040",
 		"list.activeSelectionForeground": "#000000",
-
+		
 		"menu.foreground": "#101010",
 		"menu.selectionBackground": "#0090E050",
-
+		
 		"menubar.selectionBackground": "#0090E050",
 		"menubar.selectionForeground": "#000000",
 		"titleBar.activeBackground": "#F5F5F8",
-
+		
 		"peekViewEditor.background": "#EEEEEF",
 		"peekView.border": "#707070",
 		"peekViewResult.background": "#EEEEEF",
@@ -67,28 +66,28 @@
 		"peekViewResult.lineForeground": "#000000",
 		"peekViewResult.matchHighlightBackground": "#0090E050",
 		"peekViewTitleDescription.foreground": "#000000",
-
+		
 		"gitDecoration.modifiedResourceForeground": "#0060A0",
 		"gitDecoration.untrackedResourceForeground": "#00A030",
-
+		
 		"terminal.background": "#FDFDFF",
 		"terminal.findMatchBackground": "#80C8FF",
 		"terminal.findMatchHighlightBackground": "#A0E8FF",
 		"terminal.foreground": "#000000",
-
+		
 		"statusBar.background": "#A0D0F0",
 		"statusBar.foreground": "#000000",
 		"statusBarItem.activeBackground": "#88B8D8",
 		"statusBarItem.hoverBackground": "#94C4E4",
 		"statusBarItem.errorBackground": "#FF0000"
-
+		
 	},
-
-
-
+	
+	
+	
 	/*
 	"semanticHighlighting": true,
-
+	
 	"semanticTokenColors": {
 		"*.documentation": "#0080C0",
 		"*.injected": "#204060",
@@ -104,13 +103,13 @@
 		"selfTypeKeyword": "#B02020",
 	},
 	*/
-
-
-
+	
+	
+	
 	"tokenColors": [
-
-
-
+		
+		
+		
 		{
 			"name": "Comments",
 			"scope": [
@@ -129,20 +128,27 @@
 			}
 		},
 		{
+			"name": "Namespaces",
+			"scope": "entity.name.namespace",
+			"settings": {
+				"foreground": "#082078"
+			}
+		},
+		{
 			"name": "Keywords",
 			"scope": [
 				"keyword",
 				"storage.type"
 			],
 			"settings": {
-				"foreground": "#001070"
+				"foreground": "#001480"
 			}
 		},
 		{
 			"name": "mut",
 			"scope": "storage.modifier.mut.rust",
 			"settings": {
-				"foreground": "#881030"
+				"foreground": "#900430"
 			}
 		},
 		{
@@ -153,17 +159,31 @@
 			}
 		},
 		{
+			"name": "Question Mark Operators",
+			"scope": "keyword.operator.question",
+			"settings": {
+				"foreground": "#D08000"
+			}
+		},
+		{
 			"name": "Functions",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#0418C0"
+				"foreground": "#0018D0"
 			}
 		},
 		{
 			"name": "Types",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#005460"
+				"foreground": "#005458"
+			}
+		},
+		{
+			"name": "Lifetimes",
+			"scope": "entity.name.type.lifetime",
+			"settings": {
+				"foreground": "#D8A008"
 			}
 		},
 		{
@@ -187,7 +207,7 @@
 				"markup.inline.raw.string",
 			],
 			"settings": {
-				"foreground": "#700880"
+				"foreground": "#700480"
 			}
 		},
 		{
@@ -227,9 +247,9 @@
 				"foreground": "#FF0000"
 			}
 		},
-
-
-
+		
+		
+		
 		{
 			"name": "Toml Key",
 			"scope": "keyword.key.toml",
@@ -245,9 +265,9 @@
 				"fontStyle": "bold"
 			}
 		},
-
-
-
+		
+		
+		
 		{
 			"name": "JSON Strings",
 			"scope": "string.json",
@@ -255,9 +275,9 @@
 				"foreground": "#000000"
 			}
 		},
-
-
-
+		
+		
+		
 		{
 			"name": "Headings",
 			"scope": "heading",
@@ -280,8 +300,8 @@
 				"foreground": "#6000F0",
 			}
 		}
-
-
-
+		
+		
+		
 	]
 }
