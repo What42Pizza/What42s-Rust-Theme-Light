@@ -1,39 +1,55 @@
 {
 	"name": "What42's Rust Theme (Light)",
+	"author": "What42Pizza",
 	
 	
 	
 	"colors": {
 		
+		// general
 		"foreground": "#000000",
 		"editor.background": "#FDFDFF",
 		"editor.foreground": "#000000",
 		"editorError.background": "#ff000008",
-		"editor.lineHighlightBackground": "#F0F0F4",
+		"editor.lineHighlightBackground": "#EFEFF3",
+		"editor.selectionBackground": "#B4E2FF",
 		"editor.selectionHighlightBackground": "#00A0F030",
-		"editor.wordHighlightBackground": "#0000000D",
-		"editorHoverWidget.background": "#F9F9FB",
+		"editorCursor.foreground": "#001028F4",
+		"editor.wordHighlightBackground": "#B4E2FF60",
+		"editorHoverWidget.background": "#FDFDFF",
+		"editorWhitespace.foreground": "#4070B038", // only shown when selected
 		
+		// brackets
 		"editorBracketHighlight.foreground1": "#0010B0",
 		"editorBracketHighlight.foreground2": "#007080",
 		"editorBracketHighlight.foreground3": "#008C60",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF0000",
 		"editorBracketMatch.background": "#E0E4FF",
 		
+		// inlay hint
 		"editorInlayHint.background": "#F7F7F7",
 		"editorInlayHint.foreground": "#A0A0A0",
 		
+		// find
 		"editor.findMatchBackground": "#0080E0A0",
 		"editor.findMatchHighlightBackground": "#0090E050",
 		"editor.rangeHighlightBackground": "#E0E4FF",
 		"editorOverviewRuler.findMatchForeground": "#0090E0",
 		"minimap.findMatchHighlight": "#0090E0",
 		
-		"activityBar.background": "#FFFFFF",
+		// very left
+		"activityBar.background": "#FDFDFF",
 		"activityBar.foreground": "#000000",
 		"activityBar.inactiveForeground": "#A0A0A0",
 		"activityBar.activeBackground": "#F0F0F0",
+		"activityBarBadge.background": "#0088E0",
 		
+		// files, extentions, etc
+		"sideBar.background": "#F5F5F6",
+		"sideBar.foreground": "#000000",
+		"sideBarSectionHeader.background": "#EAEBEC",
+		
+		// tabs
 		"tab.inactiveBackground": "#F0F0F1",
 		"tab.inactiveForeground": "#404040",
 		"tab.activeBackground": "#FEFEFF",
@@ -41,24 +57,28 @@
 		"tab.hoverBackground": "#E9E9EB",
 		"editorGroupHeader.tabsBackground": "#F5F5F7",
 		
+		// line numbers
 		"editorLineNumber.activeForeground": "#0860F0",
 		"editorLineNumber.foreground": "#304040",
 		
-		"sideBar.background": "#F5F5F5",
-		"sideBar.foreground": "#000000",
-		"sideBarSectionHeader.background": "#EAEBEC",
-		
+		// selected file?
 		"list.activeSelectionBackground": "#0090E050",
-		"list.hoverBackground": "#0090E040",
 		"list.activeSelectionForeground": "#000000",
+		"list.hoverBackground": "#0090E040",
 		
-		"menu.foreground": "#101010",
-		"menu.selectionBackground": "#0090E050",
+		// menu lists
+		"menu.background": "#FEFEFF",
+		"menu.foreground": "#080808",
+		"menu.selectionBackground": "#0098F04C",
+		"menu.selectionForeground": "#000000",
 		
-		"menubar.selectionBackground": "#0090E050",
+		// very top
+		"menubar.selectionBackground": "#60C0FF80",//0090E050",
 		"menubar.selectionForeground": "#000000",
 		"titleBar.activeBackground": "#F5F5F8",
+		"titleBar.inactiveBackground": "#D5D5D8",
 		
+		// sub-editor thing
 		"peekViewEditor.background": "#EEEEEF",
 		"peekView.border": "#707070",
 		"peekViewResult.background": "#EEEEEF",
@@ -67,19 +87,37 @@
 		"peekViewResult.matchHighlightBackground": "#0090E050",
 		"peekViewTitleDescription.foreground": "#000000",
 		
-		"gitDecoration.modifiedResourceForeground": "#0060A0",
+		// git
+		"gitDecoration.modifiedResourceForeground": "#006CB0",
 		"gitDecoration.untrackedResourceForeground": "#00A030",
 		
+		// terminal
 		"terminal.background": "#FDFDFF",
 		"terminal.findMatchBackground": "#80C8FF",
 		"terminal.findMatchHighlightBackground": "#A0E8FF",
 		"terminal.foreground": "#000000",
 		
+		// very bottom
 		"statusBar.background": "#A0D0F0",
 		"statusBar.foreground": "#000000",
+		"statusBar.debuggingBackground": "#A0D0F0",
+		"statusBar.debuggingForeground": "#000000",
+		"statusBar.noFolderBackground": "#A0D0F0",
+		"statusBar.noFolderForeground": "#000000",
 		"statusBarItem.activeBackground": "#88B8D8",
 		"statusBarItem.hoverBackground": "#94C4E4",
-		"statusBarItem.errorBackground": "#FF0000"
+		"statusBarItem.errorBackground": "#FF0000",
+		
+		// indent lines
+		"editorIndentGuide.background": "#DDDDDF",
+		"editorIndentGuide.activeBackground": "#C6C6C8",
+		
+	},
+	
+	
+	//"semanticHighlighting": true,
+	
+	"semanticTokenColors": {
 		
 	},
 	
@@ -96,7 +134,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#208010"
+				"foreground": "#20800F"
 			}
 		},
 		{
@@ -169,7 +207,8 @@
 			"name": "Self",
 			"scope": "variable.language.self",
 			"settings": {
-				"foreground": "#8C0820"
+				//"foreground": "#8C0820"
+				"foreground": "#B04C30"
 			}
 		},
 		{

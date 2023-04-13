@@ -3,12 +3,25 @@
 <br>
 <br>
 
+- **1.3.0 (23/04/13)**
+  - Improved general editor colors
+  - Changed color of 'self' from a dark red to a dark orange
+  - Changed status bar to always be light blue
+  - Added colors to:
+  - - Whitespaces
+  - - Inactive title bar
+
+<br>
+
 - **1.2.0 (23/04/12)**
   - Reworked basic colors to be more vibrant
   - Improved markdown support
   - Started testing with actually writing code
   - Added icon
-  - Updated readme (including example images)
+  - Updated readme
+  - - Updated example images
+  - - Added suggested settings
+  - - Improved wording
   - Added colors to:
   - - Namespaces
   - - Question mark operators
