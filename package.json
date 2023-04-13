@@ -3,6 +3,7 @@
 	"name": "what42s-rust-theme-light",
 	"displayName": "What42's Rust Theme (Light)",
 	"description": "My own theme for writing Rust code",
+	"icon": "icon.png",
 	"version": "1.0.0",
 
 	"publisher": "What42Pizza",

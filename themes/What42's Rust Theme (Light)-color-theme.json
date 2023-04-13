@@ -85,27 +85,6 @@
 	
 	
 	
-	/*
-	"semanticHighlighting": true,
-	
-	"semanticTokenColors": {
-		"*.documentation": "#0080C0",
-		"*.injected": "#204060",
-		"*.intraDocLink": "#7090FF",
-		"*.unsafe": "#E00000",
-		"attribute": "#0040C0",
-		"attributeBracket": "#001080",
-		"decorator": "#0070B0",
-		"formatSpecifier": "#006030",
-		"escapeSequence": "#D01080",
-		"lifetime": "#E0B000",
-		"selfKeyword": "#B02020",
-		"selfTypeKeyword": "#B02020",
-	},
-	*/
-	
-	
-	
 	"tokenColors": [
 		
 		
@@ -288,7 +267,10 @@
 		},
 		{
 			"name": "Links",
-			"scope": "meta.link",
+			"scope": [
+				"meta.link",
+				"meta.image"
+			],
 			"settings": {
 				"foreground": "#0070D0",
 			}
@@ -298,6 +280,20 @@
 			"scope": "string.other.link",
 			"settings": {
 				"foreground": "#6000F0",
+			}
+		},
+		{
+			"name": "Markdown Bold",
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"foreground": "#D89000"
+			}
+		},
+		{
+			"name": "Markdown Line Breaks",
+			"scope": "meta.tag.inline.br",
+			"settings": {
+				"foreground": "#707070",
 			}
 		}
 		
