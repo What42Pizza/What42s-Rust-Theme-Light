@@ -3,6 +3,9 @@
 <br>
 <br>
 
+- 1.3.1 (23/04/14)
+  - Updated example images
+
 - **1.3.0 (23/04/13)**
   - Improved general editor colors
   - Changed color of 'self' from a dark red to a dark orange
