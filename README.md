@@ -5,7 +5,6 @@
 ### This is my personal VS Code theme, focused mainly on readability.
 
 <br>
-<br>
 
 ### NOTE: The font used in these images is [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
@@ -14,13 +13,11 @@
 ![Example](images/example.png)
 
 <br>
-<br>
 
 ## Entire screen example:
 
 ![Entire screen example](images/entire_screen.png)
 
-<br>
 <br>
 <br>
 
@@ -30,7 +27,6 @@
 - **Toml**
 - **Markdown**
 
-<br>
 <br>
 <br>
 
@@ -45,5 +41,7 @@
 	"editor.cursorBlinking": "solid",
 }
 ```
+
+<br>
 
 ### I can't garuntee that I'll support other languages and/or take fixes/suggestions, but it's not impossible
