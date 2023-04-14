@@ -44,4 +44,4 @@
 
 <br>
 
-### I can't garuntee that I'll support other languages and/or take fixes/suggestions, but it's not impossible
+### I can't garuntee that I'll support other languages and/or take fixes or suggestions, but it's not impossible

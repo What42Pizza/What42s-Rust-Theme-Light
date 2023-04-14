@@ -3,16 +3,27 @@
 <br>
 <br>
 
+- 1.3.2 (23/04.14)
+  - Added colors to settings
+  - Misc color tweaks
+
+<br>
+
 - 1.3.1 (23/04/14)
   - Updated example images
+
+<br>
 
 - **1.3.0 (23/04/13)**
   - Improved general editor colors
   - Changed color of 'self' from a dark red to a dark orange
   - Changed status bar to always be light blue
-  - Added colors to:
-  - - Whitespaces
+  - Added colors to / customized colors of:
+  - - Selection Background
   - - Inactive title bar
+  - - Cursor
+  - - Whitespaces
+  - - Tab lines
 
 <br>
 

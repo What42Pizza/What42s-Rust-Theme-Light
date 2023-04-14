@@ -17,7 +17,7 @@
 		"editorCursor.foreground": "#001028F4",
 		"editor.wordHighlightBackground": "#B4E2FF60",
 		"editorHoverWidget.background": "#FDFDFF",
-		"editorWhitespace.foreground": "#4070B038", // only shown when selected
+		"editorWhitespace.foreground": "#4070B038",
 		
 		// brackets
 		"editorBracketHighlight.foreground1": "#0010B0",
@@ -42,7 +42,7 @@
 		"activityBar.foreground": "#000000",
 		"activityBar.inactiveForeground": "#A0A0A0",
 		"activityBar.activeBackground": "#F0F0F0",
-		"activityBarBadge.background": "#0088E0",
+		"activityBarBadge.background": "#008CE0",
 		
 		// files, extentions, etc
 		"sideBar.background": "#F5F5F6",
@@ -73,7 +73,7 @@
 		"menu.selectionForeground": "#000000",
 		
 		// very top
-		"menubar.selectionBackground": "#60C0FF80",//0090E050",
+		"menubar.selectionBackground": "#60C0FF80",
 		"menubar.selectionForeground": "#000000",
 		"titleBar.activeBackground": "#F5F5F8",
 		"titleBar.inactiveBackground": "#D5D5D8",
@@ -105,19 +105,19 @@
 		"statusBar.noFolderBackground": "#A0D0F0",
 		"statusBar.noFolderForeground": "#000000",
 		"statusBarItem.activeBackground": "#88B8D8",
-		"statusBarItem.hoverBackground": "#94C4E4",
-		"statusBarItem.errorBackground": "#FF0000",
+		"statusBarItem.hoverBackground": "#88B8E0",
+		"statusBarItem.errorBackground": "#D00000",
 		
 		// indent lines
 		"editorIndentGuide.background": "#DDDDDF",
 		"editorIndentGuide.activeBackground": "#C6C6C8",
 		
-	},
-	
-	
-	//"semanticHighlighting": true,
-	
-	"semanticTokenColors": {
+		// settings
+		"settings.headerForeground": "#202020",
+		"input.background": "#F2F2F4",
+		"settings.rowHoverBackground": "#D8F0FF",
+		"settings.settingsHeaderHoverForeground": "#0060C0",
+		"settings.focusedRowBackground": "#C0E8FC"
 		
 	},
 	
@@ -207,7 +207,6 @@
 			"name": "Self",
 			"scope": "variable.language.self",
 			"settings": {
-				//"foreground": "#8C0820"
 				"foreground": "#B04C30"
 			}
 		},
@@ -255,7 +254,7 @@
 			"name": "Macros",
 			"scope": "meta.attribute",
 			"settings": {
-				"foreground": "#0420E0",
+				"foreground": "#041CD8",
 			}
 		},
 		{
