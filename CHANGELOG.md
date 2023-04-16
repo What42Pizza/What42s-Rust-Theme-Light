@@ -3,7 +3,14 @@
 <br>
 <br>
 
-- 1.3.2 (23/04.14)
+- 1.3.3 (23/04/15)
+  - Added custom colors for links
+  - Reworked git colors
+  - Tweaked (slightly) misc colors
+
+<br>
+
+- 1.3.2 (23/04/14)
   - Added colors to settings
   - Misc color tweaks
 

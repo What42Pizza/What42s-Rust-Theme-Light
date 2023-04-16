@@ -12,8 +12,8 @@
 		"editor.foreground": "#000000",
 		"editorError.background": "#ff000008",
 		"editor.lineHighlightBackground": "#EFEFF3",
-		"editor.selectionBackground": "#B4E2FF",
-		"editor.selectionHighlightBackground": "#00A0F030",
+		"editor.selectionBackground": "#B4E0FF",
+		"editor.selectionHighlightBackground": "#00A0FF30",
 		"editorCursor.foreground": "#001028F4",
 		"editor.wordHighlightBackground": "#B4E2FF60",
 		"editorHoverWidget.background": "#FDFDFF",
@@ -69,7 +69,7 @@
 		// menu lists
 		"menu.background": "#FEFEFF",
 		"menu.foreground": "#080808",
-		"menu.selectionBackground": "#0098F04C",
+		"menu.selectionBackground": "#2098FF4C",
 		"menu.selectionForeground": "#000000",
 		
 		// very top
@@ -88,8 +88,8 @@
 		"peekViewTitleDescription.foreground": "#000000",
 		
 		// git
-		"gitDecoration.modifiedResourceForeground": "#006CB0",
-		"gitDecoration.untrackedResourceForeground": "#00A030",
+		"gitDecoration.modifiedResourceForeground": "#0040C0",
+		"gitDecoration.untrackedResourceForeground": "#108828",
 		
 		// terminal
 		"terminal.background": "#FDFDFF",
@@ -117,7 +117,11 @@
 		"input.background": "#F2F2F4",
 		"settings.rowHoverBackground": "#D8F0FF",
 		"settings.settingsHeaderHoverForeground": "#0060C0",
-		"settings.focusedRowBackground": "#C0E8FC"
+		"settings.focusedRowBackground": "#C0E8FC",
+		
+		// links
+		"textLink.foreground": "#0060F0",
+		"textLink.activeForeground": "#60A8FF",
 		
 	},
 	
