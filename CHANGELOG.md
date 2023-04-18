@@ -1,6 +1,17 @@
 # Change Log
 
 <br>
+
+### [Readme](README.md)
+
+<br>
+<br>
+
+- 1.3.4 (23/04/17)
+  - Revamped readme
+  - Reworked inlay hints to use transparency
+  - Tweaked 'self' color
+
 <br>
 
 - 1.3.3 (23/04/15)

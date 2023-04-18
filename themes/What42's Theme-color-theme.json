@@ -27,8 +27,8 @@
 		"editorBracketMatch.background": "#E0E4FF",
 		
 		// inlay hint
-		"editorInlayHint.background": "#F7F7F7",
-		"editorInlayHint.foreground": "#A0A0A0",
+		"editorInlayHint.background": "#00000006",
+		"editorInlayHint.foreground": "#00000068",
 		
 		// find
 		"editor.findMatchBackground": "#0080E0A0",
@@ -211,7 +211,8 @@
 			"name": "Self",
 			"scope": "variable.language.self",
 			"settings": {
-				"foreground": "#B04C30"
+				//"foreground": "#B04C30"
+				"foreground": "#B44840"
 			}
 		},
 		{

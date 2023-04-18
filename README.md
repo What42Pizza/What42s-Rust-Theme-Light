@@ -1,12 +1,27 @@
 # What42's Rust Theme (Light)
 
-<br>
-
-### This is my personal VS Code theme, focused mainly on readability.
+### This is my personal VS Code theme, focused mainly on readability. It was originally inspired by / made because of [CodeStyle's](https://www.youtube.com/@_codestyle) videos
 
 <br>
 
-### NOTE: The font used in these images is [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+## Goals of this theme:
+
+- Readability
+  - I want to read my code as fast as possible
+
+- Pleasentness
+  - I want it to just look as nice as possible
+
+- Bring attention to the right things
+  - If it isn't important, don't make it stand out
+  - If it's possibly bad (mut, self, etc), it should stand out as bad
+
+Unfortunately, I don't think I can change the color of 'unsafe' without sacrificing other coloring abilities, but hopefully that will change sometime soon. If you want an alternate theme that colors 'unsafe', you can open an issue and I'll start working on it if I have the time (or you can make it yourself, this is under an MIT license (edit 'editor.semanticTokenColorCustomizations')).
+
+<br>
+<br>
+
+### Note: The font used in these images is [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 ## Example:
 
@@ -39,8 +54,18 @@
 	"editor.fontLigatures": true,
 	"terminal.integrated.smoothScrolling": true,
 	"editor.cursorBlinking": "solid",
+	"editor.insertSpaces": false,  // use tabs instead of spaces
+	"editor.detectIndentation": false,
 }
 ```
+
+<br>
+
+## Links:
+
+- [Changelog](Changelog.md)
+- [Marketplace](https://marketplace.visualstudio.com/items?itemName=What42Pizza.what42s-rust-theme-light)
+- [GitHub](https://github.com/What42Pizza/What42s-Rust-Theme_Light)
 
 <br>
 
