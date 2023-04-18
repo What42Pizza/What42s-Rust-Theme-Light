@@ -8,20 +8,18 @@
 
 - Readability
   - I want to read my code as fast as possible
-
 - Pleasentness
   - I want it to just look as nice as possible
-
 - Bring attention to the right things
   - If it isn't important, don't make it stand out
   - If it's possibly bad (mut, self, etc), it should stand out as bad
+
+<br>
 
 Unfortunately, I don't think I can change the color of 'unsafe' without sacrificing other coloring abilities, but hopefully that will change sometime soon. If you want an alternate theme that colors 'unsafe', you can open an issue and I'll start working on it if I have the time (or you can make it yourself, this is under an MIT license (edit 'editor.semanticTokenColorCustomizations')).
 
 <br>
 <br>
-
-### Note: The font used in these images is [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 ## Example:
 
@@ -32,6 +30,8 @@ Unfortunately, I don't think I can change the color of 'unsafe' without sacrific
 ## Entire screen example:
 
 ![Entire screen example](images/entire_screen.png)
+
+### Note: The font used in these images is [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 <br>
 <br>
@@ -63,10 +63,10 @@ Unfortunately, I don't think I can change the color of 'unsafe' without sacrific
 
 ## Links:
 
-- [Changelog](Changelog.md)
+- [Changelog](CHANGELOG.md)
 - [Marketplace](https://marketplace.visualstudio.com/items?itemName=What42Pizza.what42s-rust-theme-light)
 - [GitHub](https://github.com/What42Pizza/What42s-Rust-Theme_Light)
 
 <br>
 
-### I can't garuntee that I'll support other languages and/or take fixes or suggestions, but it's not impossible
+### I can't guarantee that I'll support other languages and/or take fixes or suggestions, but it's not impossible
