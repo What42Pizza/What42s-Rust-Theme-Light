@@ -6,11 +6,11 @@
 
 ## Goals of this theme:
 
-- Readability
-  - I want to read my code as fast as possible
-- Pleasentness
+- **Readability**
+  - Text should be dark and contrast against the background
+- **Pleasentness**
   - I want it to just look as nice as possible
-- Bring attention to the right things
+- **Bring attention to the right things**
   - If it isn't important, don't make it stand out
   - If it's possibly bad (mut, self, etc), it should stand out as bad
 
@@ -21,13 +21,13 @@ Unfortunately, I don't think I can change the color of 'unsafe' without sacrific
 <br>
 <br>
 
-## Example:
+# Example:
 
 ![Example](images/example.png)
 
 <br>
 
-## Entire screen example:
+# Entire screen example:
 
 ![Entire screen example](images/entire_screen.png)
 

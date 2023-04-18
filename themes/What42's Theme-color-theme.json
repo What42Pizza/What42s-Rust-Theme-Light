@@ -173,6 +173,13 @@
 			}
 		},
 		{
+			"name": "static",
+			"scope": "storage.modifier",
+			"settings": {
+				"foreground": "#C00828"
+			}
+		},
+		{
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
@@ -183,7 +190,8 @@
 			"name": "Question Mark Operators",
 			"scope": "keyword.operator.question",
 			"settings": {
-				"foreground": "#D08000"
+				"foreground": "#D0803C",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -211,8 +219,7 @@
 			"name": "Self",
 			"scope": "variable.language.self",
 			"settings": {
-				//"foreground": "#B04C30"
-				"foreground": "#B44840"
+				"foreground": "#B05840"
 			}
 		},
 		{
@@ -252,7 +259,7 @@
 				"constant.other.caps"
 			],
 			"settings": {
-				"foreground": "#704838"
+				"foreground": "#704430"
 			}
 		},
 		{

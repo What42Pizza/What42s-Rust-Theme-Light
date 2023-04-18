@@ -7,7 +7,15 @@
 <br>
 <br>
 
-- 1.3.4 (23/04/17)
+- 1.3.6 (23/04/18)
+  - Added bright red color to 'static'
+  - Changed '?' operators to be bold (and less saturated to compensate)
+  - Tweaked 'self' color (even more)
+  - Increased saturation of constants
+
+<br>
+
+- 1.3.4 and 1.3.5 (23/04/17)
   - Revamped readme
   - Reworked inlay hints to use transparency
   - Tweaked 'self' color
@@ -17,7 +25,7 @@
 - 1.3.3 (23/04/15)
   - Added custom colors for links
   - Reworked git colors
-  - Tweaked (slightly) misc colors
+  - Tweaked misc colors (slightly)
 
 <br>
 
