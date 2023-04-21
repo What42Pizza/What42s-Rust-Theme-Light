@@ -7,6 +7,13 @@
 <br>
 <br>
 
+- 1.3.7 (23/04/21)
+  - Tweaked namespaces color
+  - Tweaked selection colors
+  - Increased brightness of line highlight
+
+<br>
+
 - 1.3.6 (23/04/18)
   - Added bright red color to 'static'
   - Changed '?' operators to be bold (and less saturated to compensate)
@@ -25,7 +32,7 @@
 - 1.3.3 (23/04/15)
   - Added custom colors for links
   - Reworked git colors
-  - Tweaked misc colors (slightly)
+  - Tweaked (slightly) misc colors
 
 <br>
 
@@ -35,12 +42,7 @@
 
 <br>
 
-- 1.3.1 (23/04/14)
-  - Updated example images
-
-<br>
-
-- **1.3.0 (23/04/13)**
+- **1.3.0 & 1.3.1 (23/04/13)**
   - Improved general editor colors
   - Changed color of 'self' from a dark red to a dark orange
   - Changed status bar to always be light blue

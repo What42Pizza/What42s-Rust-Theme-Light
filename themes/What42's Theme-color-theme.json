@@ -11,11 +11,11 @@
 		"editor.background": "#FDFDFF",
 		"editor.foreground": "#000000",
 		"editorError.background": "#ff000008",
-		"editor.lineHighlightBackground": "#EFEFF3",
+		"editor.lineHighlightBackground": "#0000180B",
 		"editor.selectionBackground": "#B4E0FF",
-		"editor.selectionHighlightBackground": "#00A0FF30",
+		"editor.selectionHighlightBackground": "#00D0C018",
+		"editor.wordHighlightBackground": "#90C0FF22",
 		"editorCursor.foreground": "#001028F4",
-		"editor.wordHighlightBackground": "#B4E2FF60",
 		"editorHoverWidget.background": "#FDFDFF",
 		"editorWhitespace.foreground": "#4070B038",
 		
@@ -152,7 +152,7 @@
 			"name": "Namespaces",
 			"scope": "entity.name.namespace",
 			"settings": {
-				"foreground": "#082078"
+				"foreground": "#003090"
 			}
 		},
 		{
