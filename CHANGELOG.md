@@ -7,10 +7,12 @@
 <br>
 <br>
 
-- 1.3.7 (23/04/21)
+- 1.3.7 & 1.3.8 (23/04/21)
   - Tweaked namespaces color
   - Tweaked selection colors
   - Increased brightness of line highlight
+  - Added more setting and details to readme
+  - Added custom marketplace banner color
 
 <br>
 

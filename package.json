@@ -4,7 +4,7 @@
 	"displayName": "What42's Rust Theme (Light)",
 	"description": "My own theme for writing Rust code",
 	"icon": "icon.png",
-	"version": "1.3.7",
+	"version": "1.3.8",
 
 	"publisher": "What42Pizza",
 	"license": "MIT",
@@ -19,6 +19,9 @@
 		"light",
 		"rust"
 	],
+	"galleryBanner": {
+		"color": "#C0E4FF"
+	},
 
 	"engines": {
 		"vscode": "^1.77.0"
