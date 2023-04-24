@@ -2,6 +2,10 @@
 	"name": "What42's Rust Theme (Light)",
 	"author": "What42Pizza",
 	
+	"references": [
+		"https://code.visualstudio.com/api/references/theme-color",
+	],
+	
 	
 	
 	"colors": {
@@ -48,7 +52,7 @@
 		// files, extentions, etc
 		"sideBar.background": "#F5F5F6",
 		"sideBar.foreground": "#000000",
-		"sideBar.border": "#00001006",
+		"sideBar.border": "#00001005",
 		"sideBarSectionHeader.background": "#EAEBEC",
 		
 		// tabs

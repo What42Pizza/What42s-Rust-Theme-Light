@@ -7,6 +7,12 @@
 <br>
 <br>
 
+- 1.3.10 (23/04/24)
+  - Overhauled readme
+  - Updated example images
+
+<br>
+
 - 1.3.9 (23/04/23)
   - Added many slight border
   - Darkened inactive activity bar icons

@@ -1,7 +1,16 @@
-# What42's Rust Theme (Light)
+<h1 align="center">What42's Rust Theme (Light)</h1>
 
-### This is my personal VS Code theme, focused mainly on readability. It was originally inspired by / made because of [CodeStyle's](https://www.youtube.com/@_codestyle) videos
+<h3 align="center" style="font-weight: bold;">This is my personal VS Code theme, focused mainly on readability. It was originally inspired by / made because of <a href="https://www.youtube.com/@_codestyle">CodeStyle's</a> videos</p>
 
+<h3 align="left" comment="this is needed (at least in VSCode) to stop the image from being centered"></h3>
+
+<br>
+
+![Entire screen example](images/example.png)
+
+### Note: These images use [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+<br>
 <br>
 
 ## Goals of this theme:
@@ -15,27 +24,11 @@
   - If it's possibly bad (mut, self, etc), it should stand out as bad
 
 <br>
-
-Unfortunately, I don't think I can change the color of 'unsafe' without sacrificing other coloring abilities, but hopefully that will change sometime soon. If you want an alternate theme that colors 'unsafe', you can open an issue and I'll start working on it if I have the time (or you can make it yourself, this is under an MIT license (edit 'editor.semanticTokenColorCustomizations')).
-
-<br>
-
-**I highly suggest that you use [f.lux](https://justgetflux.com/) or some other program that darkens your screen at night**
-
-<br>
-<br>
-
-# Example:
-
-![Example](images/example.png)
-
 <br>
 
 # Entire screen example:
 
 ![Entire screen example](images/entire_screen.png)
-
-### Note: These images use [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 <br>
 <br>
@@ -47,6 +40,25 @@ Unfortunately, I don't think I can change the color of 'unsafe' without sacrific
 - **Markdown**
 
 <br>
+
+## Links:
+
+- [Changelog](CHANGELOG.md)
+- [Marketplace](https://marketplace.visualstudio.com/items?itemName=What42Pizza.what42s-rust-theme-light)
+- [GitHub](https://github.com/What42Pizza/What42s-Rust-Theme_Light)
+
+<br>
+
+Unfortunately, I don't think I can change the color of 'unsafe' without sacrificing other coloring abilities, but hopefully that will change sometime soon.
+
+If you want an alternate theme that colors 'unsafe', you can open an issue and I'll start working on it if I have the time (or you can make it yourself, this is under an MIT license).
+
+<br>
+<br>
+<br>
+
+# Addition customizations:
+
 <br>
 
 ## Suggested settings:
@@ -74,25 +86,29 @@ Unfortunately, I don't think I can change the color of 'unsafe' without sacrific
 
 <br>
 
-**Reminder: You can always override colors with these settings:**
+## Color override settings:
 
-- "workbench.colorCustomizations"
-- "editor.tokenColorCustomizations"
-- "editor.semanticTokenColorCustomizations" & "editor.semanticHighlighting.enabled": true
-
-<br>
-
-## Links:
-
-- [Changelog](CHANGELOG.md)
-- [Marketplace](https://marketplace.visualstudio.com/items?itemName=What42Pizza.what42s-rust-theme-light)
-- [GitHub](https://github.com/What42Pizza/What42s-Rust-Theme_Light)
+```
+{
+	"workbench.colorCustomizations": {},
+	"editor.tokenColorCustomizations": {},
+	"editor.semanticHighlighting.enabled": true,
+	"editor.semanticTokenColorCustomizations": {},
+}
+```
 
 <br>
 
-### I can't guarantee that I'll support other languages and/or take fixes or suggestions, but it's not impossible
+## Additional programs:
+
+- **[f.lux](https://justgetflux.com/)** (darkens screen at night)
 
 <br>
+<br>
+<br>
+
+### **I can't guarantee that I'll support other languages and/or take fixes or suggestions, but it's not impossible**
+
 <br>
 
 ## License
