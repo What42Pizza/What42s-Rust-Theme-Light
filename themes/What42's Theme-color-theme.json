@@ -14,7 +14,7 @@
 		"editor.lineHighlightBackground": "#0000180B",
 		"editor.selectionBackground": "#B4E0FF",
 		"editor.selectionHighlightBackground": "#00D0C018",
-		"editor.wordHighlightBackground": "#90C0FF22",
+		"editor.wordHighlightBackground": "#60C0FF28",
 		"editorCursor.foreground": "#001028F4",
 		"editorHoverWidget.background": "#FDFDFF",
 		"editorWhitespace.foreground": "#4070B038",
@@ -40,13 +40,15 @@
 		// very left
 		"activityBar.background": "#FDFDFF",
 		"activityBar.foreground": "#000000",
-		"activityBar.inactiveForeground": "#A0A0A0",
+		"activityBar.border": "#0000100A",
+		"activityBar.inactiveForeground": "#7C7C7C",
 		"activityBar.activeBackground": "#F0F0F0",
 		"activityBarBadge.background": "#008CE0",
 		
 		// files, extentions, etc
 		"sideBar.background": "#F5F5F6",
 		"sideBar.foreground": "#000000",
+		"sideBar.border": "#00001006",
 		"sideBarSectionHeader.background": "#EAEBEC",
 		
 		// tabs
@@ -56,6 +58,7 @@
 		"tab.activeForeground": "#000000",
 		"tab.hoverBackground": "#E9E9EB",
 		"editorGroupHeader.tabsBackground": "#F5F5F7",
+		"tab.border": "#30304004",
 		
 		// line numbers
 		"editorLineNumber.activeForeground": "#0860F0",
@@ -69,14 +72,17 @@
 		// menu lists
 		"menu.background": "#FEFEFF",
 		"menu.foreground": "#080808",
+		"menu.border": "#00FF2020",
 		"menu.selectionBackground": "#2098FF4C",
 		"menu.selectionForeground": "#000000",
+		"menu.selectionBorder": "#00004004",
 		
 		// very top
 		"menubar.selectionBackground": "#60C0FF80",
 		"menubar.selectionForeground": "#000000",
 		"titleBar.activeBackground": "#F5F5F8",
 		"titleBar.inactiveBackground": "#D5D5D8",
+		"titleBar.border": "#20202004",
 		
 		// sub-editor thing
 		"peekViewEditor.background": "#EEEEEF",
@@ -100,6 +106,7 @@
 		// very bottom
 		"statusBar.background": "#A0D0F0",
 		"statusBar.foreground": "#000000",
+		"statusBar.border": "#0000F00A",
 		"statusBar.debuggingBackground": "#A0D0F0",
 		"statusBar.debuggingForeground": "#000000",
 		"statusBar.noFolderBackground": "#A0D0F0",
@@ -114,10 +121,11 @@
 		
 		// settings
 		"settings.headerForeground": "#202020",
-		"input.background": "#F2F2F4",
+		"input.background": "#F3F3F5",
 		"settings.rowHoverBackground": "#D8F0FF",
 		"settings.settingsHeaderHoverForeground": "#0060C0",
 		"settings.focusedRowBackground": "#C0E8FC",
+		"panel.border": "#00001028",
 		
 		// links
 		"textLink.foreground": "#0060F0",

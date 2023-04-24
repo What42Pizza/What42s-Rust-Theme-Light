@@ -54,7 +54,7 @@ Unfortunately, I don't think I can change the color of 'unsafe' without sacrific
 ```
 {
 	"files.autoSave": "afterDelay",
-    "editor.acceptSuggestionOnEnter": "off",
+	"editor.acceptSuggestionOnEnter": "off",
 	"editor.lightbulb.enabled": false,
 	"editor.insertSpaces": false,  // use tabs instead of spaces
 	"editor.detectIndentation": false,
@@ -91,3 +91,10 @@ Unfortunately, I don't think I can change the color of 'unsafe' without sacrific
 <br>
 
 ### I can't guarantee that I'll support other languages and/or take fixes or suggestions, but it's not impossible
+
+<br>
+<br>
+
+## License
+
+### This project is under the [MIT License](LICENSE)

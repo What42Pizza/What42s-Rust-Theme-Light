@@ -7,6 +7,15 @@
 <br>
 <br>
 
+- 1.3.9 (23/04/23)
+  - Added many slight border
+  - Darkened inactive activity bar icons
+  - Tweaked selection colors (again)
+  - Tweaked marketplace banner color
+  - Added license to readme
+
+<br>
+
 - 1.3.7 & 1.3.8 (23/04/21)
   - Tweaked namespaces color
   - Tweaked selection colors
