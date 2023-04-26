@@ -7,6 +7,17 @@
 <br>
 <br>
 
+- 1.3.11 (23/04/26)
+  - Tweaked colors:
+  - - SideBar background & border
+  - - StatusBar background
+  - - TitleBar background
+  - Updated readme
+  - - Added version, installs, and downloads (inspiration and html from [Clear Theme](https://marketplace.visualstudio.com/items?itemName=danibram.theme-clear))
+  - - Added terminal contrast to suggested settings
+
+<br>
+
 - 1.3.10 (23/04/24)
   - Overhauled readme
   - Updated example images

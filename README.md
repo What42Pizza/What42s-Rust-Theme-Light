@@ -1,14 +1,23 @@
 <h1 align="center">What42's Rust Theme (Light)</h1>
 
+<p align="center">
+	<img src="https://vsmarketplacebadges.dev/version-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=086CF0&label=VERSION" alt="Version">&nbsp;
+	<b comment='
+	<img src="https://vsmarketplacebadges.dev/rating-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=086CF0&label=Rating" alt="Rating">&nbsp;
+	'></b>
+	<img src="https://vsmarketplacebadges.dev/installs-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=086CF0&label=Installs" alt="Installs">&nbsp;
+	<img src="https://vsmarketplacebadges.dev/downloads-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=086CF0&label=Downloads" alt="Downloads">
+</p>
+
 <h3 align="center" style="font-weight: bold;">This is my personal VS Code theme, focused mainly on readability. It was originally inspired by / made because of <a href="https://www.youtube.com/@_codestyle">CodeStyle's</a> videos</p>
 
-<h3 align="left" comment="this is needed (at least in VSCode) to stop the image from being centered"></h3>
+<h3 align="left" comment="this is needed to stop the image from being centered"></h3>
 
 <br>
 
 ![Entire screen example](images/example.png)
 
-### Note: These images use [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+### These images use [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 <br>
 <br>
@@ -65,6 +74,7 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 
 ```
 {
+	"terminal.integrated.minimumContrastRatio": 2.5, // lower is more colorful, higher is easier to read
 	"files.autoSave": "afterDelay",
 	"editor.acceptSuggestionOnEnter": "off",
 	"editor.lightbulb.enabled": false,

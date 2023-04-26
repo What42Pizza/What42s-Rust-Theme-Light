@@ -50,9 +50,9 @@
 		"activityBarBadge.background": "#008CE0",
 		
 		// files, extentions, etc
-		"sideBar.background": "#F5F5F6",
+		"sideBar.background": "#F6F6F7",
 		"sideBar.foreground": "#000000",
-		"sideBar.border": "#00001005",
+		"sideBar.border": "#10102005",
 		"sideBarSectionHeader.background": "#EAEBEC",
 		
 		// tabs
@@ -82,11 +82,11 @@
 		"menu.selectionBorder": "#00004004",
 		
 		// very top
-		"menubar.selectionBackground": "#60C0FF80",
-		"menubar.selectionForeground": "#000000",
-		"titleBar.activeBackground": "#F5F5F8",
+		"titleBar.activeBackground": "#F6F6F8",
 		"titleBar.inactiveBackground": "#D5D5D8",
 		"titleBar.border": "#20202004",
+		"menubar.selectionBackground": "#60C0FF80",
+		"menubar.selectionForeground": "#000000",
 		
 		// sub-editor thing
 		"peekViewEditor.background": "#EEEEEF",
@@ -108,7 +108,7 @@
 		"terminal.foreground": "#000000",
 		
 		// very bottom
-		"statusBar.background": "#A0D0F0",
+		"statusBar.background": "#90C8F0",
 		"statusBar.foreground": "#000000",
 		"statusBar.border": "#0000F00A",
 		"statusBar.debuggingBackground": "#A0D0F0",
