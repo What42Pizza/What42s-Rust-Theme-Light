@@ -7,6 +7,12 @@
 <br>
 <br>
 
+- **1.4.0** (23/04/27)
+  - Reworked many editor colors to be more blue
+  - Added "other themes to check out" to readme
+
+<br>
+
 - 1.3.11 (23/04/26)
   - Tweaked colors:
   - - SideBar background & border

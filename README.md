@@ -66,7 +66,7 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 <br>
 <br>
 
-# Addition customizations:
+# Additional customizations:
 
 <br>
 
@@ -112,6 +112,21 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 ## Additional programs:
 
 - **[f.lux](https://justgetflux.com/)** (darkens screen at night)
+
+<br>
+<br>
+
+## Other themes to check out:
+
+- **[Amethyst Themes](https://marketplace.visualstudio.com/items?itemName=amodio.amethyst-theme)** (dark)
+- **[Kary Pro Colors](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes)** (dark and light)
+- **[Aurora Evening](https://marketplace.visualstudio.com/items?itemName=MarvinSernee.aurora-evening)** (dark)
+- **[Lightning](https://marketplace.visualstudio.com/items?itemName=zevross.lightning)** (dark)
+- **[Cerulean](https://marketplace.visualstudio.com/items?itemName=OwenWilliams.cerulean)** (dark and light)
+- **[Mimesis](https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis)** (light)
+- **[Atom One Light Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight)**
+- **[Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)**
+- **[Verdigris Light Theme](https://marketplace.visualstudio.com/items?itemName=amomum.theme-verdigris-light)**
 
 <br>
 <br>

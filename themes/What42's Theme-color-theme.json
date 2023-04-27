@@ -6,21 +6,29 @@
 		"https://code.visualstudio.com/api/references/theme-color",
 	],
 	
+	"todo": [
+		"make the theme generally less boring",
+		"make very left blue background and white foreground",
+		"customize scroll bar area?",
+		"use different colors for readme badges?",
+		"improve thumbnail?",
+	],
+	
 	
 	
 	"colors": {
 		
 		// general
 		"foreground": "#000000",
-		"editor.background": "#FDFDFF",
+		"editor.background": "#FDFEFF",
 		"editor.foreground": "#000000",
 		"editorError.background": "#ff000008",
 		"editor.lineHighlightBackground": "#0000180B",
-		"editor.selectionBackground": "#B4E0FF",
+		"editor.selectionBackground": "#B4DFFF",
 		"editor.selectionHighlightBackground": "#00D0C018",
 		"editor.wordHighlightBackground": "#60C0FF28",
 		"editorCursor.foreground": "#001028F4",
-		"editorHoverWidget.background": "#FDFDFF",
+		"editorHoverWidget.background": "#FDFEFF",
 		"editorWhitespace.foreground": "#4070B038",
 		
 		// brackets
@@ -41,28 +49,29 @@
 		"editorOverviewRuler.findMatchForeground": "#0090E0",
 		"minimap.findMatchHighlight": "#0090E0",
 		
-		// very left
-		"activityBar.background": "#FDFDFF",
+		// very left,
+		"activityBar.background": "#FEFFFF",
 		"activityBar.foreground": "#000000",
 		"activityBar.border": "#0000100A",
+		"activityBar.activeBackground": "#EBECEC",
 		"activityBar.inactiveForeground": "#7C7C7C",
-		"activityBar.activeBackground": "#F0F0F0",
 		"activityBarBadge.background": "#008CE0",
 		
 		// files, extentions, etc
-		"sideBar.background": "#F6F6F7",
+		"sideBar.background": "#F6F7F9",
 		"sideBar.foreground": "#000000",
 		"sideBar.border": "#10102005",
 		"sideBarSectionHeader.background": "#EAEBEC",
 		
 		// tabs
-		"tab.inactiveBackground": "#F0F0F1",
-		"tab.inactiveForeground": "#404040",
-		"tab.activeBackground": "#FEFEFF",
+		"tab.activeBackground": "#FDFEFF",
 		"tab.activeForeground": "#000000",
-		"tab.hoverBackground": "#E9E9EB",
-		"editorGroupHeader.tabsBackground": "#F5F5F7",
-		"tab.border": "#30304004",
+		"tab.inactiveBackground": "#EEF0F5",
+		"tab.inactiveForeground": "#404040",
+		"tab.hoverBackground": "#0000301C",
+		"tab.border": "#20203008",
+		"editorGroupHeader.tabsBackground": "#F5F7F9",
+		"editorGroupHeader.border": "#00F00014",
 		
 		// line numbers
 		"editorLineNumber.activeForeground": "#0860F0",
@@ -82,9 +91,9 @@
 		"menu.selectionBorder": "#00004004",
 		
 		// very top
-		"titleBar.activeBackground": "#F6F6F8",
+		"titleBar.activeBackground": "#F2FAFF",
 		"titleBar.inactiveBackground": "#D5D5D8",
-		"titleBar.border": "#20202004",
+		"titleBar.border": "#20203004",
 		"menubar.selectionBackground": "#60C0FF80",
 		"menubar.selectionForeground": "#000000",
 		
