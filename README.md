@@ -1,3 +1,5 @@
+<br>
+
 <h1 align="center">What42's Rust Theme (Light)</h1>
 
 <p align="center">
@@ -124,9 +126,6 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 - **[Lightning](https://marketplace.visualstudio.com/items?itemName=zevross.lightning)** (dark)
 - **[Cerulean](https://marketplace.visualstudio.com/items?itemName=OwenWilliams.cerulean)** (dark and light)
 - **[Mimesis](https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis)** (light)
-- **[Atom One Light Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight)**
-- **[Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)**
-- **[Verdigris Light Theme](https://marketplace.visualstudio.com/items?itemName=amomum.theme-verdigris-light)**
 
 <br>
 <br>

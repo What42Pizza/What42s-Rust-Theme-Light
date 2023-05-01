@@ -7,9 +7,17 @@
 <br>
 <br>
 
+- 1.4.1 (23/05/01)
+  - Added yellow color to macros
+  - Removed some suggested themes
+  - Updated example images
+
+<br>
+
 - **1.4.0** (23/04/27)
   - Reworked many editor colors to be more blue
   - Added "other themes to check out" to readme
+  - This release (hopefully) marks a move away from boringness
 
 <br>
 
