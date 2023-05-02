@@ -7,7 +7,7 @@
 <br>
 <br>
 
-- **1.4.1** (23/05/01)
+- **1.4.1 & 1.4.2** (23/05/01)
   - Added support for Lua (only 1 change for now, maybe more to come)
   - Added yellow color to macros
   - Removed some suggested themes
