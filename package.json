@@ -17,10 +17,11 @@
 	"keywords": [
 		"theme",
 		"light",
-		"rust"
+		"rust",
+		"Lua"
 	],
 	"galleryBanner": {
-		"color": "#B4E4FF"
+		"color": "#ACE4FF"
 	},
 	
 	"engines": {
