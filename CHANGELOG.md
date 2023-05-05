@@ -7,8 +7,21 @@
 <br>
 <br>
 
-- **1.4.1 & 1.4.2** (23/05/01)
-  - Added support for Lua (only 1 change for now, maybe more to come)
+- 1.4.3 (23/05/05)
+  - Reworked constants detection
+  - Added blue color for HTML attributes (to fix the break from macro coloring)
+  - Added red color for anything invalid
+  - Tweaked colors of:
+  - - Macro (now darker and stands out less)
+  - - Self (now more red)
+  - - Keyword (now stands out less)
+  - - Inlay Hint (now stands out slightly more)
+  - updated example images
+
+<br>
+
+- 1.4.1 & 1.4.2 (23/05/01)
+  - Added support for Lua (though only 1 change specific to Lua for now)
   - Added yellow color to macros
   - Removed some suggested themes
   - Updated example images
@@ -23,7 +36,7 @@
 <br>
 
 - 1.3.11 (23/04/26)
-  - Tweaked colors:
+  - Tweaked colors of:
   - - SideBar background & border
   - - StatusBar background
   - - TitleBar background

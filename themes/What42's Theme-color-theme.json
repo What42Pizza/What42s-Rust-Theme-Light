@@ -9,7 +9,6 @@
 	"todo": [
 		"make the theme generally less boring",
 		"customize scroll bar area?",
-		"use different colors for readme badges?",
 		"improve thumbnail?",
 	],
 	
@@ -38,8 +37,8 @@
 		"editorBracketMatch.background": "#E0E4FF",
 		
 		// inlay hint
-		"editorInlayHint.background": "#00000006",
-		"editorInlayHint.foreground": "#00000068",
+		"editorInlayHint.background": "#00002007",
+		"editorInlayHint.foreground": "#0000006C",
 		
 		// find
 		"editor.findMatchBackground": "#0080E0A0",
@@ -182,7 +181,7 @@
 				"storage.type"
 			],
 			"settings": {
-				"foreground": "#001480"
+				"foreground": "#202C80"
 			}
 		},
 		{
@@ -235,19 +234,23 @@
 			"name": "Lifetimes",
 			"scope": "entity.name.type.lifetime",
 			"settings": {
-				"foreground": "#D8A008"
+				"foreground": "#D89408"
 			}
 		},
 		{
 			"name": "Self",
 			"scope": "variable.language.self",
 			"settings": {
-				"foreground": "#B05840"
+				"foreground": "#BC5848"
 			}
 		},
 		{
-			"name": "Numbers & Characters",
-			"scope": "constant",
+			"name": "Numbers, Characters, Bools, Etc",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant.language.bool"
+			],
 			"settings": {
 				"foreground": "#007070"
 			}
@@ -278,25 +281,19 @@
 		},
 		{
 			"name": "Constants",
-			"scope": [
-				"constant.other.caps"
-			],
+			"scope": "constant",
 			"settings": {
 				"foreground": "#704430"
 			}
 		},
 		{
 			"name": "Macros",
-			"scope": "meta.attribute",
+			"scope": [
+				"meta.attribute",
+				"meta.attribute keyword.operator.access.dot"
+			],
 			"settings": {
-				"foreground": "#D08030"
-			}
-		},
-		{
-			"name": "Macro Dot",
-			"scope": "meta.attribute keyword.operator.access.dot",
-			"settings": {
-				"foreground": "#D08030"
+				"foreground": "#C47840"
 			}
 		},
 		{
@@ -307,10 +304,13 @@
 			}
 		},
 		{
-			"name": "Exceptions",
-			"scope": "entity.name.exception",
+			"name": "Anything Really Bad",
+			"scope": [
+				"invalid",
+				"entity.name.exception"
+			],
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#D00000"
 			}
 		},
 		
@@ -381,6 +381,20 @@
 			"scope": "meta.tag.inline.br",
 			"settings": {
 				"foreground": "#707070",
+			}
+		},
+		{
+			"name": "HTML Attribute",
+			"scope": "entity.other.attribute-name.html",
+			"settings": {
+				"foreground": "#0018D0"
+			}
+		},
+		{
+			"name": "HTML Seperator",
+			"scope": "punctuation.separator.key-value.html",
+			"settings": {
+				"foreground": "#000000"
 			}
 		}
 		
