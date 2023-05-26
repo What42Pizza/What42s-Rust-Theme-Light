@@ -23,21 +23,21 @@
 		"editorError.background": "#ff000008",
 		"editor.lineHighlightBackground": "#0000180B",
 		"editor.selectionBackground": "#B4DFFF",
-		"editor.selectionHighlightBackground": "#00D0C018",
-		"editor.wordHighlightBackground": "#60C0FF28",
+		"editor.selectionHighlightBackground": "#B4DFFF80",
+		"editor.wordHighlightBackground": "#B4DFFF40",
 		"editorCursor.foreground": "#001028F4",
 		"editorHoverWidget.background": "#FDFEFF",
 		"editorWhitespace.foreground": "#4070B038",
 		
 		// brackets
-		"editorBracketHighlight.foreground1": "#0010B0",
-		"editorBracketHighlight.foreground2": "#007080",
-		"editorBracketHighlight.foreground3": "#008C60",
+		"editorBracketHighlight.foreground1": "#008C60",
+		"editorBracketHighlight.foreground2": "#0010B0",
+		"editorBracketHighlight.foreground3": "#007080",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF0000",
 		"editorBracketMatch.background": "#E0E4FF",
 		
 		// inlay hint
-		"editorInlayHint.background": "#00002007",
+		"editorInlayHint.background": "#00002006",
 		"editorInlayHint.foreground": "#0000006C",
 		
 		// find

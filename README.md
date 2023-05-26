@@ -123,8 +123,7 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 
 - **[Amethyst Themes](https://marketplace.visualstudio.com/items?itemName=amodio.amethyst-theme)** (dark)
 - **[Kary Pro Colors](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes)** (dark and light)
-- **[Aurora Evening](https://marketplace.visualstudio.com/items?itemName=MarvinSernee.aurora-evening)** (dark)
-- **[Lightning](https://marketplace.visualstudio.com/items?itemName=zevross.lightning)** (dark)
+- **[Lightning](https://marketplace.visualstudio.com/items?itemName=zevross.lightning)** (dark and light)
 - **[Cerulean](https://marketplace.visualstudio.com/items?itemName=OwenWilliams.cerulean)** (dark and light)
 - **[Mimesis](https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis)** (light)
 

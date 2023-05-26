@@ -7,6 +7,14 @@
 <br>
 <br>
 
+- 1.4.4 (23/05/26)
+  - Reworked selection highlight backgrounds
+  - Removed Aurora Evening from suggested themes (removed from marketplace)
+  - Rotated colors of brackets (now starts with green)
+  - Other tiny tweaks
+
+<br>
+
 - 1.4.3 (23/05/05)
   - Reworked constants detection
   - Added blue color for HTML attributes (to fix the break from macro coloring)
