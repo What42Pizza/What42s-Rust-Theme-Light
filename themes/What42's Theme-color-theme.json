@@ -185,6 +185,13 @@
 			}
 		},
 		{
+			"name": "Glsl Keywords",
+			"scope": "storage.modifier.glsl",
+			"settings": {
+				"foreground": "#0050D0",
+			}
+		},
+		{
 			"name": "mut",
 			"scope": "storage.modifier.mut.rust",
 			"settings": {
@@ -311,6 +318,13 @@
 			],
 			"settings": {
 				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "Preprocessor",
+			"scope": "keyword.directive.preprocessor",
+			"settings": {
+				"foreground": "#B85048"
 			}
 		},
 		

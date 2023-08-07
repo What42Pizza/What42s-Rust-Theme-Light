@@ -48,6 +48,7 @@
 
 - **Rust**
 - **Lua**
+- **Glsl**
 - **Toml**
 - **Markdown**
 
@@ -122,7 +123,8 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 ## Other themes to check out:
 
 - **[Amethyst Themes](https://marketplace.visualstudio.com/items?itemName=amodio.amethyst-theme)** (dark)
-- **[Kary Pro Colors](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes)** (dark and light)
+- **[Kary Pro Colors](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundaion-themes)** (dark and light)
+- **[MagicUser](https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes)** (dark and light)
 - **[Lightning](https://marketplace.visualstudio.com/items?itemName=zevross.lightning)** (dark and light)
 - **[Cerulean](https://marketplace.visualstudio.com/items?itemName=OwenWilliams.cerulean)** (dark and light)
 - **[Mimesis](https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis)** (light)

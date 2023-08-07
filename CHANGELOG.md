@@ -7,6 +7,12 @@
 <br>
 <br>
 
+- 1.4.5 (23/08/06)
+  - Added Glsl support
+  - Tweaked changelog
+
+<br>
+
 - 1.4.4 (23/05/26)
   - Reworked selection highlight backgrounds
   - Removed Aurora Evening from suggested themes (removed from marketplace)
@@ -41,6 +47,7 @@
   - Added "other themes to check out" to readme
   - This release (hopefully) marks a move away from boringness
 
+<br>
 <br>
 
 - 1.3.11 (23/04/26)
@@ -118,6 +125,7 @@
   - - Tab lines
 
 <br>
+<br>
 
 - **1.2.0 (23/04/12)**
   - Reworked basic colors to be more vibrant
@@ -134,6 +142,7 @@
   - - Lifetimes (re-added)
 
 <br>
+<br>
 
 - **1.1.0 (23/04/11)**
   - Reworked token selection
@@ -142,6 +151,7 @@
   - Added more data to package.json
   - Tweaked many colors
 
+<br>
 <br>
 
 - **1.0.0 (23/04/10)**
