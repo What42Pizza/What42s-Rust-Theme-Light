@@ -127,8 +127,8 @@
 		"statusBarItem.errorBackground": "#D00000",
 		
 		// indent lines
-		"editorIndentGuide.background": "#DDDDDF",
-		"editorIndentGuide.activeBackground": "#C6C6C8",
+		"editorIndentGuide.background1": "#DDDDDF",
+		"editorIndentGuide.activeBackground1": "#C6C6C8",
 		
 		// settings
 		"settings.headerForeground": "#202020",
@@ -349,7 +349,7 @@
 		
 		
 		{
-			"name": "JSON Strings",
+			"name": "JSON Keys",
 			"scope": "string.json",
 			"settings": {
 				"foreground": "#000000"
@@ -395,6 +395,21 @@
 			"scope": "meta.tag.inline.br",
 			"settings": {
 				"foreground": "#707070",
+			}
+		},
+		{
+			"name": "Markdown Code",
+			"scope": "markup.fenced_code",
+			"settings": {
+				"foreground": "#4C0088",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Code Contents",
+			"scope": "meta.embedded.block",
+			"settings": {
+				"fontStyle": ""
 			}
 		},
 		{

@@ -7,6 +7,13 @@
 <br>
 <br>
 
+- 1.4.6 (23/08/06)
+  - Added support for markdown inline code
+  - Slightly updated readme's suggested themes and wording
+  - Updated 'editorIndentGuide' to newer version
+
+<br>
+
 - 1.4.5 (23/08/06)
   - Added Glsl support
   - Tweaked changelog

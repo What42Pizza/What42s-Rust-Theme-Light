@@ -26,13 +26,13 @@
 
 ## Goals of this theme:
 
-- **Readability**
-  - Text should be dark and contrast against the background
-- **Pleasentness**
-  - I want it to just look as nice as possible
-- **Bring attention to the right things**
-  - If it isn't important, don't make it stand out
-  - If it's possibly bad (mut, self, etc), it should stand out as bad
+### Readability
+  - **Text should be dark and should contrast against the background**
+### Pleasantness
+  - **I want it to just look as nice as possible**
+### Bring attention to the right things
+  - **If it isn't important, it stan't stand out**
+  - **If it's possibly bad (mut, self, etc), it should stand out as bad**
 
 <br>
 <br>
@@ -49,6 +49,7 @@
 - **Rust**
 - **Lua**
 - **Glsl**
+- **JSON**
 - **Toml**
 - **Markdown**
 
@@ -76,7 +77,7 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 
 ## Suggested settings:
 
-```
+``` json
 {
 	"terminal.integrated.minimumContrastRatio": 2.5, // lower is more colorful, higher is easier to read
 	"files.autoSave": "afterDelay",
@@ -102,7 +103,7 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 
 ## Color override settings:
 
-```
+``` json
 {
 	"workbench.colorCustomizations": {},
 	"editor.tokenColorCustomizations": {},
@@ -123,10 +124,10 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 ## Other themes to check out:
 
 - **[Amethyst Themes](https://marketplace.visualstudio.com/items?itemName=amodio.amethyst-theme)** (dark)
-- **[Kary Pro Colors](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundaion-themes)** (dark and light)
 - **[MagicUser](https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes)** (dark and light)
-- **[Lightning](https://marketplace.visualstudio.com/items?itemName=zevross.lightning)** (dark and light)
+- **[Kary Pro Colors](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundaion-themes)** (dark and light)
 - **[Cerulean](https://marketplace.visualstudio.com/items?itemName=OwenWilliams.cerulean)** (dark and light)
+- **[Lightning](https://marketplace.visualstudio.com/items?itemName=zevross.lightning)** (dark and light)
 - **[Mimesis](https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis)** (light)
 
 <br>
