@@ -7,7 +7,13 @@
 <br>
 <br>
 
+- 1.4.7 (23/10/23)
+  - Many small Readme tweaks
+
+<br>
+
 - 1.4.6 (23/08/06)
+  - Officially added support for JSON
   - Added support for markdown inline code
   - Slightly updated readme's suggested themes and wording
   - Updated 'editorIndentGuide' to newer version

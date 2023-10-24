@@ -24,14 +24,14 @@
 <br>
 <br>
 
-## Goals of this theme:
+# Goals of this theme:
 
 ### Readability
   - **Text should be dark and should contrast against the background**
 ### Pleasantness
   - **I want it to just look as nice as possible**
 ### Bring attention to the right things
-  - **If it isn't important, it stan't stand out**
+  - **If it isn't important, it shouldn't stand out**
   - **If it's possibly bad (mut, self, etc), it should stand out as bad**
 
 <br>
@@ -57,9 +57,9 @@
 
 ## Links:
 
-- [Changelog](CHANGELOG.md)
-- [Marketplace](https://marketplace.visualstudio.com/items?itemName=What42Pizza.what42s-rust-theme-light)
-- [GitHub](https://github.com/What42Pizza/What42s-Rust-Theme_Light)
+- **[Changelog](CHANGELOG.md)**
+- **[Marketplace](https://marketplace.visualstudio.com/items?itemName=What42Pizza.what42s-rust-theme-light)**
+- **[GitHub](https://github.com/What42Pizza/What42s-Rust-Theme_Light)**
 
 <br>
 
@@ -72,8 +72,6 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 <br>
 
 # Additional customizations:
-
-<br>
 
 ## Suggested settings:
 
@@ -140,4 +138,4 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 
 ## License
 
-### This project is under the [MIT License](LICENSE)
+This project is under the [MIT License](LICENSE)
