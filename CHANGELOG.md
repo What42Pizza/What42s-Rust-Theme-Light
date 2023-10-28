@@ -7,6 +7,13 @@
 <br>
 <br>
 
+- 1.4.8 (23/10/28)
+  - Updated icon
+  - Added more tags
+  - Fixed link for Kary Pro Colors
+
+<br>
+
 - 1.4.7 (23/10/23)
   - Many small Readme tweaks
 

@@ -4,7 +4,7 @@
 	"displayName": "What42's Rust Theme (Light)",
 	"description": "My own theme for writing Rust code",
 	"icon": "icon.png",
-	"version": "1.4.7",
+	"version": "1.4.8",
 	
 	"publisher": "What42Pizza",
 	"license": "MIT",
@@ -17,6 +17,9 @@
 	"keywords": [
 		"theme",
 		"light",
+		"light blue",
+		"simple",
+		"minimalistic",
 		"rust",
 		"lua"
 	],
