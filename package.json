@@ -2,9 +2,9 @@
 	
 	"name": "what42s-rust-theme-light",
 	"displayName": "What42's Rust Theme (Light)",
-	"description": "My own theme for writing Rust code",
+	"description": "A theme for Rust that focuses on readability",
 	"icon": "icon.png",
-	"version": "1.4.8",
+	"version": "1.4.9",
 	
 	"publisher": "What42Pizza",
 	"license": "MIT",
@@ -20,8 +20,17 @@
 		"light blue",
 		"simple",
 		"minimalistic",
+		"color",
+		"colorful",
+		"colour",
+		"colourful",
+		"readable",
 		"rust",
-		"lua"
+		"lua",
+		"glsl",
+		"json",
+		"toml",
+		"markdown"
 	],
 	"galleryBanner": {
 		"color": "#ACE4FF"

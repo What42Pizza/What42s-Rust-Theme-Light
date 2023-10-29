@@ -4,9 +4,7 @@
 
 <p align="center">
 	<img src="https://vsmarketplacebadges.dev/version-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=357FE2&label=VERSION" alt="Version">&nbsp;
-	<b comment='
 	<img src="https://vsmarketplacebadges.dev/rating-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=0671FF&label=Rating" alt="Rating">&nbsp;
-	'></b>
 	<img src="https://vsmarketplacebadges.dev/installs-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=0671FF&label=Installs" alt="Installs">&nbsp;
 	<img src="https://vsmarketplacebadges.dev/downloads-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=0671FF&label=Downloads" alt="Downloads">
 </p>
@@ -28,11 +26,12 @@
 
 ### Readability
   - **Text should be dark and should contrast against the background**
-### Pleasantness
-  - **I want it to just look as nice as possible**
+  - **Nothing should be distracting**
 ### Bring attention to the right things
   - **If it isn't important, it shouldn't stand out**
   - **If it's possibly bad (mut, self, etc), it should stand out as bad**
+### Pleasantness
+  - **It should be modern, colorful, simple, and just generally pleasant**
 
 <br>
 <br>
@@ -44,7 +43,7 @@
 <br>
 <br>
 
-## Supported languages:
+## First-class languages:
 
 - **Rust**
 - **Lua**
@@ -99,20 +98,22 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 
 <br>
 
-## Color override settings:
+## Set your own colors:
 
 ``` json
 {
 	"workbench.colorCustomizations": {},
 	"editor.tokenColorCustomizations": {},
-	"editor.semanticHighlighting.enabled": true,
+	"editor.semanticHighlighting.enabled": true, // these last two are optional
 	"editor.semanticTokenColorCustomizations": {},
 }
 ```
 
+To edit these into your settings, you can open your settings.json file by opening command palette (f1) and selecting "Preferences: Open User Settings (JSON)".
+
 <br>
 
-## Additional programs:
+## Suggested programs:
 
 - **[f.lux](https://justgetflux.com/)** (darkens screen at night)
 
@@ -121,12 +122,13 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 
 ## Other themes to check out:
 
-- **[Amethyst Themes](https://marketplace.visualstudio.com/items?itemName=amodio.amethyst-theme)** (dark)
-- **[MagicUser](https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes)** (dark and light)
-- **[Kary Pro Colors](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes)** (dark and light)
+- **[Amethyst Themes](https://marketplace.visualstudio.com/items?itemName=amodio.amethyst-theme)** (dark only)
+- **[Mimesis](https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis)** (light only)
+- **[Yet Another Solarized Theme](https://marketplace.visualstudio.com/items?itemName=JulianSchelb.yet-another-solarized-theme)** (dark and light)
 - **[Cerulean](https://marketplace.visualstudio.com/items?itemName=OwenWilliams.cerulean)** (dark and light)
+- **[Kary Pro Colors](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes)** (dark and light)
+- **[MagicUser](https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes)** (dark and light)
 - **[Lightning](https://marketplace.visualstudio.com/items?itemName=zevross.lightning)** (dark and light)
-- **[Mimesis](https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis)** (light)
 
 <br>
 <br>

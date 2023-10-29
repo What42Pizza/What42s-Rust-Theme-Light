@@ -12,6 +12,10 @@
 		"improve thumbnail?",
 	],
 	
+	"keep an eye on": [
+		"https://marketplace.visualstudio.com/items?itemName=ThakkerOSS.thakker-light-mist-hc",
+	],
+	
 	
 	
 	"colors": {
@@ -37,8 +41,8 @@
 		"editorBracketMatch.background": "#E0E4FF",
 		
 		// inlay hint
-		"editorInlayHint.background": "#00002006",
-		"editorInlayHint.foreground": "#0000006C",
+		"editorInlayHint.background": "#60608007",
+		"editorInlayHint.foreground": "#00000074",
 		
 		// find
 		"editor.findMatchBackground": "#0080E0A0",
@@ -69,7 +73,7 @@
 		"tab.hoverBackground": "#0000301C",
 		"tab.border": "#20203008",
 		"editorGroupHeader.tabsBackground": "#F5F7F9",
-		"editorGroupHeader.border": "#00F00014",
+		"editorGroupHeader.border": "#00FF0018",
 		
 		// line numbers
 		"editorLineNumber.activeForeground": "#0860F0",
@@ -83,7 +87,7 @@
 		// menu lists
 		"menu.background": "#FEFEFF",
 		"menu.foreground": "#080808",
-		"menu.border": "#00FF2020",
+		"menu.border": "#00FF4028",
 		"menu.selectionBackground": "#2098FF4C",
 		"menu.selectionForeground": "#000000",
 		"menu.selectionBorder": "#00004004",

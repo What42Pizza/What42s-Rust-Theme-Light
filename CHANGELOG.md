@@ -7,6 +7,17 @@
 <br>
 <br>
 
+- 1.4.9 (23/10/29)
+  - Increased vilibility of inlay hints and borders
+  - Updated Readme
+  - - Added suggested theme: Yet Another Solarized Theme
+  - - Added rating badge
+  - - Many smaller tweaks
+  - Updated to package description and tags
+  - Tweaked icon
+
+<br>
+
 - 1.4.8 (23/10/28)
   - Updated icon
   - Added more tags
@@ -35,7 +46,7 @@
 
 - 1.4.4 (23/05/26)
   - Reworked selection highlight backgrounds
-  - Removed Aurora Evening from suggested themes (removed from marketplace)
+  - Removed Aurora Evening from suggested themes (removed from marketplace?)
   - Rotated colors of brackets (now starts with green)
   - Other tiny tweaks
 
