@@ -1,20 +1,32 @@
 {
+	
 	"name": "What42's Rust Theme (Light)",
 	"author": "What42Pizza",
 	
-	"references": [
-		"https://code.visualstudio.com/api/references/theme-color",
-	],
 	
-	"todo": [
-		"make the theme generally less boring",
-		"customize scroll bar area?",
-		"improve thumbnail?",
-	],
 	
-	"keep an eye on": [
-		"https://marketplace.visualstudio.com/items?itemName=ThakkerOSS.thakker-light-mist-hc",
-	],
+	/*
+	
+	References:
+	https://code.visualstudio.com/api/references/theme-color
+	
+	Themes to keep an eye on:
+	https://marketplace.visualstudio.com/items?itemName=ThakkerOSS.thakker-light-mist-hc
+	
+	
+	
+	Todo:
+	Add support for langauges:
+		Zig?
+	Make the theme generally less boring
+	Customize scroll bar area?
+	Improve thumbnail?
+	
+	
+	
+	*/
+	
+	
 	
 	
 	
@@ -42,7 +54,7 @@
 		
 		// inlay hint
 		"editorInlayHint.background": "#60608007",
-		"editorInlayHint.foreground": "#00000074",
+		"editorInlayHint.foreground": "#00000075",
 		
 		// find
 		"editor.findMatchBackground": "#0080E0A0",
@@ -51,7 +63,7 @@
 		"editorOverviewRuler.findMatchForeground": "#0090E0",
 		"minimap.findMatchHighlight": "#0090E0",
 		
-		// very left,
+		// very left
 		"activityBar.background": "#FEFFFF",
 		"activityBar.foreground": "#000000",
 		"activityBar.border": "#0000100A",
@@ -150,15 +162,17 @@
 	
 	
 	
+	
+	
 	"tokenColors": [
 		
 		
 		
+		// General / Rust:
+		
 		{
 			"name": "Comments",
-			"scope": [
-				"comment"
-			],
+			"scope": "comment",
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#20800F"
@@ -182,7 +196,7 @@
 			"name": "Keywords",
 			"scope": [
 				"keyword",
-				"storage.type"
+				"storage.type.rust",
 			],
 			"settings": {
 				"foreground": "#202C80"
@@ -229,6 +243,7 @@
 			"scope": [
 				"entity.name.function",
 				"support.function",
+				"meta.function-call",
 			],
 			"settings": {
 				"foreground": "#0018D0"
@@ -236,7 +251,13 @@
 		},
 		{
 			"name": "Types",
-			"scope": "entity.name.type",
+			"scope": [
+				"entity.name.type",
+				"storage.type",
+				"keyword.type",
+				"keyword.other.type",
+				"support.type",
+			],
 			"settings": {
 				"foreground": "#005458"
 			}
@@ -250,7 +271,10 @@
 		},
 		{
 			"name": "Self",
-			"scope": "variable.language.self",
+			"scope": [
+				"variable.language.self",
+				"variable.language.this",
+			],
 			"settings": {
 				"foreground": "#BC5848"
 			}
@@ -260,7 +284,8 @@
 			"scope": [
 				"constant.numeric",
 				"constant.character",
-				"constant.language.bool"
+				"constant.language.bool",
+				"constant.other.color",
 			],
 			"settings": {
 				"foreground": "#007070"
@@ -301,7 +326,7 @@
 			"name": "Macros",
 			"scope": [
 				"meta.attribute",
-				"meta.attribute keyword.operator.access.dot"
+				"meta.attribute keyword.operator.access.dot",
 			],
 			"settings": {
 				"foreground": "#C47840"
@@ -318,7 +343,7 @@
 			"name": "Anything Really Bad",
 			"scope": [
 				"invalid",
-				"entity.name.exception"
+				"entity.name.exception",
 			],
 			"settings": {
 				"foreground": "#D00000"
@@ -333,6 +358,8 @@
 		},
 		
 		
+		
+		// Toml
 		
 		{
 			"name": "Toml Key",
@@ -352,6 +379,8 @@
 		
 		
 		
+		// JSON
+		
 		{
 			"name": "JSON Keys",
 			"scope": "string.json",
@@ -362,8 +391,10 @@
 		
 		
 		
+		// Markdown
+		
 		{
-			"name": "Headings",
+			"name": "Markdown Headings",
 			"scope": "heading",
 			"settings": {
 				"foreground": "#0030E0",
@@ -371,17 +402,17 @@
 			}
 		},
 		{
-			"name": "Links",
+			"name": "Markdown Links",
 			"scope": [
 				"meta.link",
-				"meta.image"
+				"meta.image",
 			],
 			"settings": {
 				"foreground": "#0070D0",
 			}
 		},
 		{
-			"name": "Link Names",
+			"name": "Markdown Link Names",
 			"scope": "string.other.link",
 			"settings": {
 				"foreground": "#6000F0",
@@ -417,21 +448,245 @@
 			}
 		},
 		{
-			"name": "HTML Attribute",
-			"scope": "entity.other.attribute-name.html",
+			"name": "HTML Tag",
+			"scope": "entity.name.tag.html",
 			"settings": {
 				"foreground": "#0018D0"
 			}
 		},
 		{
-			"name": "HTML Seperator",
-			"scope": "punctuation.separator.key-value.html",
+			"name": "HTML Attribute",
+			"scope": "entity.other.attribute-name.html",
+			"settings": {
+				"foreground": "#1030A0"
+			}
+		},
+		{
+			"name": "HTML Operator",
+			"scope": [
+				"punctuation.separator.key-value.html",
+				"punctuation.definition.tag",
+			],
+			"settings": {
+				"foreground": "#101070"
+			}
+		},
+		
+		
+		
+		
+		
+		// SECOND-CLASS SUPPORT
+		
+		
+		
+		// C
+		
+		{
+			"name": "C Struct Keyword",
+			"scope": "storage.type.struct.c",
+			"settings": {
+				"foreground": "#202C80"
+			}
+		},
+		
+		
+		
+		// Swift
+		
+		{
+			"name": "Swift Keywords",
+			"scope": [
+				"storage.type.class.swift",
+				"storage.type.function.swift",
+			],
+			"settings": {
+				"foreground": "#202C80"
+			}
+		},
+		{
+			"name": "Swift Vars(?)",
+			"scope": [
+				"entity.name.function.swift",
+				"support.function.any-method.swift",
+			],
 			"settings": {
 				"foreground": "#000000"
 			}
-		}
+		},
+		{
+			"name": "Swift Functions",
+			"scope": "support.function.any-method.swift",
+			"settings": {
+				"foreground": "#0018D0"
+			}
+		},
+		
+		
+		
+		// Clojue
+		
+		{
+			"name": "Clojure Definition",
+			"scope": "entity.global.clojure",
+			"settings": {
+				"foreground": "#005658"
+			}
+		},
+		{
+			"name": "Clojure Vars(?)",
+			"scope": "constant.keyword.clojure",
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Clojure Keywords",
+			"scope": "storage.control.clojure",
+			"settings": {
+				"foreground": "#202C80"
+			}
+		},
+		
+		
+		
+		// C#
+		
+		{
+			"name": "C# Access Modifier",
+			"scope": "storage.modifier.cs",
+			"settings": {
+				"foreground": "#202870"
+			}
+		},
+		
+		
+		
+		// Java
+		
+		{
+			"name": "Java Access Modifier",
+			"scope": "storage.modifier.java",
+			"settings": {
+				"foreground": "#202870"
+			}
+		},
+		
+		
+		
+		// Python
+		
+		{
+			"name": "Python Keywords",
+			"scope": [
+				"storage.type.class.python",
+				"storage.type.function.python",
+			],
+			"settings": {
+				"foreground": "#202C80"
+			}
+		},
+		{
+			"name": "Python Self",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python",
+			],
+			"settings": {
+				"foreground": "#BC5848"
+			}
+		},
+		{
+			"name": "Python Attributes",
+			"scope": "meta.attribute.python",
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		
+		
+		
+		// Php
+		
+		{
+			"name": "Php Access Modifier",
+			"scope": "storage.modifier.php",
+			"settings": {
+				"foreground": "#202870"
+			}
+		},
+		{
+			"name": "Php $",
+			"scope": "punctuation.definition.variable.php",
+			"settings": {
+				"foreground": "#202C80"
+			}
+		},
+		
+		
+		
+		// Css
+		
+		{
+			"name": "Css Selector",
+			"scope": [
+				"meta.selector.css",
+				"keyword.control.at-rule",
+			],
+			"settings": {
+				"foreground": "#0018D0"
+			}
+		},
+		{
+			"name": "Css Property",
+			"scope": "meta.property-name",
+			"settings": {
+				"foreground": "#202080"
+			}
+		},
+		{
+			"name": "Css Variable",
+			"scope": [
+				"variable.css",
+				"variable.argument.css",
+			],
+			"settings": {
+				"foreground": "#202090"
+			}
+		},
+		{
+			"name": "CSS Constants",
+			"scope": "support.constant.property-value.css",
+			"settings": {
+				"foreground": "#704430"
+			}
+		},
+		
+		
+		
+		{
+			"name": "Javascript",
+			"scope": [
+				"source.js",
+				"storage.type.class.js",
+				"entity.name.type.class.js",
+				"storage.type.js",
+				"storage.type.property.js",
+				"entity.name.function.js",
+				"keyword.control.flow.js",
+				"keyword.operator.new.js",
+				"string.quoted.single.js",
+				"constant.numeric.decimal.js",
+				"comment.line.double-slash.js",
+				"comment.block.js",
+			],
+			"settings": {
+				"foreground": "#FF0000"
+			}
+		},
 		
 		
 		
 	]
+	
 }

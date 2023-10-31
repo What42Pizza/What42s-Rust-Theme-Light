@@ -7,6 +7,12 @@
 <br>
 <br>
 
+- 1.4.10 (23/10/30)
+  - Added second-class support for many languages (thanks to [Dracula's](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) [Sample Code](https://github.com/dracula/template/tree/master/sample))
+  - Tweaked a few colors
+
+<br>
+
 - 1.4.9 (23/10/29)
   - Increased vilibility of inlay hints and borders
   - Updated Readme

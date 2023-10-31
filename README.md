@@ -52,6 +52,8 @@
 - **Toml**
 - **Markdown**
 
+(Many more languages have some support, but not much)
+
 <br>
 
 ## Links:
