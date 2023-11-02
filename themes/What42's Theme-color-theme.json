@@ -34,7 +34,7 @@
 		
 		// general
 		"foreground": "#000000",
-		"editor.background": "#FDFEFF",
+		"editor.background": "#F1FAFF",
 		"editor.foreground": "#000000",
 		"editorError.background": "#ff000008",
 		"editor.lineHighlightBackground": "#0000180B",
@@ -64,37 +64,38 @@
 		"minimap.findMatchHighlight": "#0090E0",
 		
 		// very left
-		"activityBar.background": "#FEFFFF",
+		"activityBar.background": "#80A0FF",
 		"activityBar.foreground": "#000000",
 		"activityBar.border": "#0000100A",
-		"activityBar.activeBackground": "#EBECEC",
-		"activityBar.inactiveForeground": "#7C7C7C",
+		"activityBar.activeBackground": "#0000FF18",
+		"activityBar.inactiveForeground": "#000000B0",
 		"activityBarBadge.background": "#008CE0",
 		
-		// files, extentions, etc
-		"sideBar.background": "#F6F7F9",
+		// area for files, extentions, etc
+		"sideBar.background": "#B0D0FF",
 		"sideBar.foreground": "#000000",
-		"sideBar.border": "#10102005",
-		"sideBarSectionHeader.background": "#EAEBEC",
+		"sideBar.border": "#10102010",
+		"sideBarSectionHeader.background": "#0000FF18",
+		
+		// explorer
+		"list.activeSelectionBackground": "#0090E050",
+		"list.activeSelectionForeground": "#000000",
+		"list.inactiveSelectionBackground": "#0000FF18",
+		"list.hoverBackground": "#0090E040",
 		
 		// tabs
-		"tab.activeBackground": "#FDFEFF",
+		"tab.activeBackground": "#F1FAFF",
 		"tab.activeForeground": "#000000",
-		"tab.inactiveBackground": "#EEF0F5",
+		"tab.inactiveBackground": "#D0E4FF",
 		"tab.inactiveForeground": "#404040",
 		"tab.hoverBackground": "#0000301C",
 		"tab.border": "#20203008",
-		"editorGroupHeader.tabsBackground": "#F5F7F9",
+		"editorGroupHeader.tabsBackground": "#E0F0FF",
 		"editorGroupHeader.border": "#00FF0018",
 		
 		// line numbers
 		"editorLineNumber.activeForeground": "#0860F0",
 		"editorLineNumber.foreground": "#304040",
-		
-		// selected file?
-		"list.activeSelectionBackground": "#0090E050",
-		"list.activeSelectionForeground": "#000000",
-		"list.hoverBackground": "#0090E040",
 		
 		// menu lists
 		"menu.background": "#FEFEFF",
@@ -105,8 +106,8 @@
 		"menu.selectionBorder": "#00004004",
 		
 		// very top
-		"titleBar.activeBackground": "#F2FAFF",
-		"titleBar.inactiveBackground": "#D5D5D8",
+		"titleBar.activeBackground": "#90D0FF",
+		"titleBar.inactiveBackground": "#B0E0F0",
 		"titleBar.border": "#20203004",
 		"menubar.selectionBackground": "#60C0FF80",
 		"menubar.selectionForeground": "#000000",
@@ -383,7 +384,7 @@
 		
 		{
 			"name": "JSON Keys",
-			"scope": "string.json",
+			"scope": "support.type.property-name.json",
 			"settings": {
 				"foreground": "#000000"
 			}
@@ -677,7 +678,6 @@
 				"keyword.operator.new.js",
 				"string.quoted.single.js",
 				"constant.numeric.decimal.js",
-				"comment.line.double-slash.js",
 				"comment.block.js",
 			],
 			"settings": {

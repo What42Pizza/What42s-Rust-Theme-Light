@@ -7,6 +7,13 @@
 <br>
 <br>
 
+- 1.5.0 (23/11/02)
+  - Added blue-style theme
+  - Fixed JSON coloring
+
+<br>
+<br>
+
 - 1.4.10 (23/10/30)
   - Added second-class support for many languages (thanks to [Dracula's](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) [Sample Code](https://github.com/dracula/template/tree/master/sample))
   - Tweaked a few colors
