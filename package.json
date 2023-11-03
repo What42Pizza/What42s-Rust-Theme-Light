@@ -5,7 +5,6 @@
 	"description": "A theme for Rust that focuses on readability",
 	"icon": "icon.png",
 	"version": "1.5.0",
-	
 	"publisher": "What42Pizza",
 	"license": "MIT",
 	"repository": {
@@ -13,7 +12,9 @@
 		"url": "https://github.com/What42Pizza/What42s-Rust-Theme_Light.git"
 	},
 	
-	"categories": ["Themes"],
+	"categories": [
+		"Themes"
+	],
 	"keywords": [
 		"theme",
 		"light",
@@ -37,7 +38,7 @@
 		"markdown"
 	],
 	"galleryBanner": {
-		"color": "#ACE4FF"
+		"color": "#8BD1FF"
 	},
 	
 	"engines": {
@@ -46,11 +47,19 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "What42's Rust Theme (Light)",
+				"label": "What42's Rust Theme (White)",
 				"uiTheme": "vs",
-				"path": "./themes/What42's Theme-color-theme.json"
+				"path": "./themes/What42's Rust Theme (White).json"
+			},
+			{
+				"label": "What42's Rust Theme (Blue)",
+				"uiTheme": "vs",
+				"path": "./themes/What42's Rust Theme (Blue).json"
 			}
 		]
+	},
+	"dependencies": {
+		"hjson": "^3.2.2"
 	}
 	
 }

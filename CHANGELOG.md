@@ -7,8 +7,9 @@
 <br>
 <br>
 
-- 1.5.0 (23/11/02)
-  - Added blue-style theme
+- **1.5.0** (23/11/02)
+  - Added Blue theme
+  - Overhauled extension internals (again, thanks to [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) for initial code)
   - Fixed JSON coloring
 
 <br>
@@ -86,7 +87,7 @@
 
 <br>
 
-- **1.4.0** (23/04/27)
+- **1.4.0 (23/04/27)**
   - Reworked many editor colors to be more blue
   - Added "other themes to check out" to readme
   - This release (hopefully) marks a move away from boringness

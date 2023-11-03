@@ -1,8 +1,5 @@
 {
 	
-	"name": "What42's Rust Theme (Light)",
-	"author": "What42Pizza",
-	
 	
 	
 	/*
@@ -34,7 +31,7 @@
 		
 		// general
 		"foreground": "#000000",
-		"editor.background": "#F1FAFF",
+		"editor.background": {"white": "#FDFEFF", "blue": "#F1FAFF"},
 		"editor.foreground": "#000000",
 		"editorError.background": "#ff000008",
 		"editor.lineHighlightBackground": "#0000180B",
@@ -64,33 +61,34 @@
 		"minimap.findMatchHighlight": "#0090E0",
 		
 		// very left
-		"activityBar.background": "#80A0FF",
+		"activityBar.background": {"white": "#FEFFFF", "blue": "#80A0FF"},
 		"activityBar.foreground": "#000000",
 		"activityBar.border": "#0000100A",
-		"activityBar.activeBackground": "#0000FF18",
-		"activityBar.inactiveForeground": "#000000B0",
+		"activityBar.activeBackground": {"white": "#EBECEC", "blue": "#0000FF18"},
+		"activityBar.inactiveForeground": {"white": "#7C7C7C", "blue": "#000000B0"},
 		"activityBarBadge.background": "#008CE0",
 		
 		// area for files, extentions, etc
-		"sideBar.background": "#B0D0FF",
+		"sideBar.background": {"white": "#F6F7F9", "blue": "#B8D4FF"},
 		"sideBar.foreground": "#000000",
-		"sideBar.border": "#10102010",
-		"sideBarSectionHeader.background": "#0000FF18",
+		"sideBar.border": {"white": "#10102005", "blue": "#10102010"},
+		"sideBarSectionHeader.background": {"white": "#EAEBEC", "blue": "#0000FF18"},
 		
 		// explorer
-		"list.activeSelectionBackground": "#0090E050",
+		"list.activeSelectionBackground": {"white": "#0090E050", "blue": "#0090E050"},
 		"list.activeSelectionForeground": "#000000",
-		"list.inactiveSelectionBackground": "#0000FF18",
+		"list.inactiveSelectionBackground": {"white": "#0090E040", "blue": "#0000FF18"},
+		"list.warningForeground": {"white": "#0090E040", "blue": "#B07000"},
 		"list.hoverBackground": "#0090E040",
 		
 		// tabs
-		"tab.activeBackground": "#F1FAFF",
+		"tab.activeBackground": {"white": "#FDFEFF", "blue": "#F1FAFF"},
 		"tab.activeForeground": "#000000",
-		"tab.inactiveBackground": "#D0E4FF",
+		"tab.inactiveBackground": {"white": "#EEF0F5", "blue": "#D0E4FF"},
 		"tab.inactiveForeground": "#404040",
 		"tab.hoverBackground": "#0000301C",
 		"tab.border": "#20203008",
-		"editorGroupHeader.tabsBackground": "#E0F0FF",
+		"editorGroupHeader.tabsBackground": {"white": "#F5F7F9", "blue": "#E0F0FF"},
 		"editorGroupHeader.border": "#00FF0018",
 		
 		// line numbers
@@ -106,8 +104,8 @@
 		"menu.selectionBorder": "#00004004",
 		
 		// very top
-		"titleBar.activeBackground": "#90D0FF",
-		"titleBar.inactiveBackground": "#B0E0F0",
+		"titleBar.activeBackground": {"white": "#F2FAFF", "blue": "#90D0FF"},
+		"titleBar.inactiveBackground": {"white": "#D5D5D8", "blue": "#B0E0F0"},
 		"titleBar.border": "#20203004",
 		"menubar.selectionBackground": "#60C0FF80",
 		"menubar.selectionForeground": "#000000",
@@ -122,8 +120,9 @@
 		"peekViewTitleDescription.foreground": "#000000",
 		
 		// git
-		"gitDecoration.modifiedResourceForeground": "#0040C0",
-		"gitDecoration.untrackedResourceForeground": "#108828",
+		"gitDecoration.modifiedResourceForeground": {"white": "#0040C0", "blue": "#0038D0"},
+		"gitDecoration.untrackedResourceForeground": {"white": "#108828", "blue": "#009020"},
+		"gitDecoration.ignoredResourceForeground": {"white": "#505050", "blue": "#584070"},
 		
 		// terminal
 		"terminal.background": "#FDFDFF",
@@ -176,7 +175,7 @@
 			"scope": "comment",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#20800F"
+				"foreground": {"white": "#20800F", "blue": "#20880F"}
 			}
 		},
 		{
@@ -200,7 +199,7 @@
 				"storage.type.rust",
 			],
 			"settings": {
-				"foreground": "#202C80"
+				"foreground": {"white": "#202C80", "blue": "#202D94"}
 			}
 		},
 		{
@@ -214,7 +213,7 @@
 			"name": "mut",
 			"scope": "storage.modifier.mut.rust",
 			"settings": {
-				"foreground": "#900430"
+				"foreground": {"white": "#900430", "blue": "#980430"}
 			}
 		},
 		{
@@ -260,7 +259,7 @@
 				"support.type",
 			],
 			"settings": {
-				"foreground": "#005458"
+				"foreground": {"white": "#005458", "blue": "#00585C"}
 			}
 		},
 		{
@@ -289,7 +288,7 @@
 				"constant.other.color",
 			],
 			"settings": {
-				"foreground": "#007070"
+				"foreground": {"white": "#007070", "blue": "#008070"}
 			}
 		},
 		{
@@ -384,7 +383,10 @@
 		
 		{
 			"name": "JSON Keys",
-			"scope": "support.type.property-name.json",
+			"scope": [
+				"support.type.property-name.json",
+				"support.type.property-name.hjson",
+			],
 			"settings": {
 				"foreground": "#000000"
 			}
@@ -525,7 +527,7 @@
 		
 		
 		
-		// Clojue
+		// Clojure
 		
 		{
 			"name": "Clojure Definition",
