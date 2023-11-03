@@ -22,6 +22,7 @@ module.exports = async () => {
 	await copy('icon.png');
 	await copy('images');
 	await copy('LICENSE');
+	await copy('node_modules');
 	
 };
 
