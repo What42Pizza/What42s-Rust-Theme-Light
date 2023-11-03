@@ -40,10 +40,10 @@
 	"galleryBanner": {
 		"color": "#8BD1FF"
 	},
-	
 	"engines": {
 		"vscode": "^1.77.0"
 	},
+	
 	"contributes": {
 		"themes": [
 			{
@@ -59,6 +59,7 @@
 		]
 	},
 	"dependencies": {
+		"fs-extra": "^11.1.1",
 		"hjson": "^3.2.2"
 	}
 	
