@@ -15,7 +15,7 @@
 
 <br>
 
-![Entire screen example](images/example.png)
+![Example](images/example.png)
 
 ### These images use [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
@@ -36,7 +36,7 @@
 <br>
 <br>
 
-# Entire screen example:
+# Entire screen example: &nbsp; (Blue and White themes)
 
 ![Entire screen example](images/entire_screen.png)
 
@@ -76,7 +76,7 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 
 ## Suggested settings:
 
-``` json
+``` hjson
 {
 	"terminal.integrated.minimumContrastRatio": 2.5, // lower is more colorful, higher is easier to read
 	"files.autoSave": "afterDelay",
@@ -102,7 +102,7 @@ If you want an alternate theme that colors 'unsafe', you can open an issue and I
 
 ## Set your own colors:
 
-``` json
+``` hjson
 {
 	"workbench.colorCustomizations": {},
 	"editor.tokenColorCustomizations": {},

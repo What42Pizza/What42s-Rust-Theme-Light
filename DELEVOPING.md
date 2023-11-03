@@ -15,4 +15,4 @@
 
 ## Export:
 
-- Run 'node ./src/scripts/build_extention.js', and a folder names 'output' should appear with the finished extension (this script also builds the themes)
+- Run 'node ./src/scripts/build_extension.js', and a folder names 'output' should appear with the finished extension (this script also builds the themes)
