@@ -2,17 +2,17 @@ const fs = require('fs');
 const path = require('path');
 const utils = require('./utils');
 
-const THEMES_DIR = path.join(__dirname, '..', '..', 'themes');
+const THEMES_DIR = path.join(__dirname, '..', 'themes');
 
 if (!fs.existsSync(THEMES_DIR)) {
 	fs.mkdirSync(THEMES_DIR);
 }
 
 module.exports = async () => {
-	let base_theme_text = await fs.promises.readFile(path.join(__dirname, '..', "base color-theme.json"), 'utf-8');
+	let src_theme_text = await fs.promises.readFile(path.join(__dirname, '..', "src color-theme.json"), 'utf-8');
 	
-	let white = await utils.process_theme(base_theme_text, "white");
-	let blue = await utils.process_theme(base_theme_text, "blue");
+	let white = await utils.process_theme(src_theme_text, "white");
+	let blue = await utils.process_theme(src_theme_text, "blue");
 	
 	return Promise.all([
 		fs.promises.writeFile(

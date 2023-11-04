@@ -24,8 +24,8 @@ function process_possible_diverge(table, key, style) {
 
 module.exports = {
 	
-	process_theme: async (base_theme_text, style) => {
-		let output = hjson.parse(base_theme_text)
+	process_theme: async (src_theme_text, style) => {
+		let output = hjson.parse(src_theme_text)
 		
 		// colors
 		for (const key in output.colors) {

@@ -78,7 +78,7 @@
 		"list.activeSelectionBackground": {"white": "#0090E050", "blue": "#0090E050"},
 		"list.activeSelectionForeground": "#000000",
 		"list.inactiveSelectionBackground": {"white": "#0090E040", "blue": "#0000FF18"},
-		"list.warningForeground": {"white": "#0090E040", "blue": "#B07000"},
+		"list.warningForeground": {"white": "#B87800", "blue": "#B88000"},
 		"list.hoverBackground": "#0090E040",
 		
 		// tabs

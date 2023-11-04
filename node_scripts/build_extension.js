@@ -2,7 +2,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const build_themes = require('./build_themes');
 
-const REPO_DIR = path.join(__dirname, '..', '..');
+const REPO_DIR = path.join(__dirname, '..');
 const OUTPUT_DIR = path.join(REPO_DIR, 'output');
 
 async function copy(path_end) {

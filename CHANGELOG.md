@@ -7,6 +7,12 @@
 <br>
 <br>
 
+- 2.0.1 (23/11/04)
+  - Fixed file warning color for White theme
+  - Rewrote internal theme builder in Rust
+
+<br>
+
 - **2.0.0** (23/11/03)
   - Added Blue theme
   - Overhauled extension internals (again, thanks to [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) for initial code)
