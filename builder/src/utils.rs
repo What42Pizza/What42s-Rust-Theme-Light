@@ -85,3 +85,9 @@ pub fn read_next_string() -> Result<String> {
 	io::stdin().read_line(&mut input_string)?;
 	Ok(input_string)
 }
+
+
+
+pub fn error<T>(msg: &'static str) -> Result<T> {
+	Err(Error::msg(msg))
+}
