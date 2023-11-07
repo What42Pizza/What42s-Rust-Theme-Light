@@ -9,7 +9,7 @@ const OUTPUTS: &[(&str, &str)] = &[
 const FOLDERS_TO_EXPORT: &[&str] = &[
 	"themes",
 	"images",
-	"node_modules",
+	//"node_modules",
 ];
 const FILES_TO_EXPORT: &[&str] = &[
 	"package.json",
@@ -138,23 +138,19 @@ pub fn process_theme(src_theme: &Theme, style: &str) -> Theme {
 	let mut foreground_replacements = vec!();
 	let mut background_replacements = vec!();
 	for (i, token_color) in src_theme.token_colors.iter().enumerate() {
-		if let Some(foreground) = token_color.settings.get("foreground") {
-			if let ColorValue::Diverge(styles) = foreground {
-				let Some(result) = styles.get(style) else {
-					println!("Warning: src.tokenColors.{i}.settings.foreground does not have an option for style {style}.");
-					continue;
-				};
-				foreground_replacements.push((i, result.clone()));
-			}
+		if let Some(ColorValue::Diverge(styles)) = token_color.settings.get("foreground") {
+			let Some(result) = styles.get(style) else {
+				println!("Warning: src.tokenColors.{i}.settings.foreground does not have an option for style {style}.");
+				continue;
+			};
+			foreground_replacements.push((i, result.clone()));
 		}
-		if let Some(background) = token_color.settings.get("background") {
-			if let ColorValue::Diverge(styles) = background {
-				let Some(result) = styles.get(style) else {
-					println!("Warning: src.tokenColors.{i}.settings.background does not have an option for style {style}.");
-					continue;
-				};
-				background_replacements.push((i, result.clone()));
-			}
+		if let Some(ColorValue::Diverge(styles)) = token_color.settings.get("background") {
+			let Some(result) = styles.get(style) else {
+				println!("Warning: src.tokenColors.{i}.settings.background does not have an option for style {style}.");
+				continue;
+			};
+			background_replacements.push((i, result.clone()));
 		}
 	}
 	for (i, result) in foreground_replacements {
@@ -224,8 +220,9 @@ pub fn check_package_version(repo_path: PathBuf) {
 
 pub fn try_check_package_version(repo_path: PathBuf) -> Result<()> {
 	
-	// idk if I'm allowed to access the marketplace like this, but I CANNOT find ANYTHING about the api, let alone whether accessing it is okay
-	// also, I found how to do this through here: https://github.com/cssho/VSMarketplaceBadges
+	// references:
+	// https://github.com/cssho/VSMarketplaceBadges
+	// https://github.com/microsoft/vsmarketplace/issues/238
 	let marketplace_api_url = "https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery";
 	let client = reqwest::blocking::Client::new();
 	let result = client
@@ -233,7 +230,7 @@ pub fn try_check_package_version(repo_path: PathBuf) -> Result<()> {
 		.header(reqwest::header::USER_AGENT, "What42Pizza")
 		.header(reqwest::header::ACCEPT, "application/json;api-version=3.0-preview.1")
 		.header(reqwest::header::CONTENT_TYPE, "application/json")
-		.body(r#"{"filters":[{"criteria":[{"filterType":7,"value":"What42Pizza.what42s-rust-theme-light"}]}],"flags":914}"#)
+		.body(r#"{"filters":[{"criteria":[{"filterType":7,"value":"What42Pizza.what42s-rust-theme-light"}]}],"flags":16}"#)
 		.send()?;
 	
 	if result.status() != StatusCode::OK {return Ok(());}

@@ -14,7 +14,7 @@ impl PathBufTraits for PathBuf {
 		for path in self.read_dir().expect("Could not read dir entries") {
 			if path.expect("Could not process dir entry").file_name() == dir_name {return true;}
 		}
-		return false;
+		false
 	}
 	fn push_new(&self, path: impl AsRef<Path>) -> PathBuf {
 		let mut output = self.clone();

@@ -9,6 +9,7 @@
 
 - 2.0.1 (23/11/04)
   - Fixed file warning color for White theme
+  - Removed node_modules from vsix
   - Rewrote internal theme builder in Rust
 
 <br>
