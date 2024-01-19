@@ -7,6 +7,14 @@
 <br>
 <br>
 
+- 2.0.2 (24/01/19)
+  - Fixed toml colors
+  - Added 'super' (rust) to namespace color
+  - Decreased brightness of new files (git untracked resources)
+  - Decreased brightness of files with errors
+
+<br>
+
 - 2.0.1 (23/11/04)
   - Fixed file warning color for White theme
   - Removed node_modules from vsix

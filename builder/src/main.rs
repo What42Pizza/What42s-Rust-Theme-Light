@@ -66,7 +66,7 @@ fn main() {
 						unsafe {EXIT = true;}
 						return;
 					}
-					_ => println!("Unkown option."),
+					_ => println!("Unknown option."),
 				}
 			}
 		},
@@ -244,14 +244,14 @@ pub fn try_check_package_version(repo_path: PathBuf) -> Result<()> {
 	let Some(first_result) = results.get(0) else {return error("Http Post return.results was empty");};
 	let Some(first_result) = first_result.as_object() else {return error("Http Post return.results[0] was not an object");};
 	let Some(extensions) = first_result.get("extensions") else {return error("Http Post return.results[0] did not have entry 'extensions'");};
-	let Some(extensions) = extensions.as_array() else {return error("Http Post return.results[0].etensions was not an array");};
-	let Some(first_extension) = extensions.get(0) else {return error("Http Post return.results[0].extentions was empty");};
-	let Some(first_extension) = first_extension.as_object() else {return error("Http Post return.results[0].extentions[0] was not an object");};
-	let Some(versions) = first_extension.get("versions") else {return error("Http Post return.results[0].extentions[0] did not have entry 'versions'");};
-	let Some(versions) = versions.as_array() else {return error("Http Post return.results[0].extentions[0].versions was not an array");};
-	let Some(first_version) = versions.get(0) else {return error("Http Post return.results[0].extentions[0].versions was empty");};
-	let Some(upload_version) = first_version.get("version") else {return error("Http Post return.results[0].extentions[0].versions[0] did not have entry 'version'");};
-	let Some(upload_version) = upload_version.as_str() else {return error("Http Post return.results[0].extentions[0].versions[0].versions was not a string");};
+	let Some(extensions) = extensions.as_array() else {return error("Http Post return.results[0].extensions was not an array");};
+	let Some(first_extension) = extensions.get(0) else {return error("Http Post return.results[0].extensions was empty");};
+	let Some(first_extension) = first_extension.as_object() else {return error("Http Post return.results[0].extensions[0] was not an object");};
+	let Some(versions) = first_extension.get("versions") else {return error("Http Post return.results[0].extensions[0] did not have entry 'versions'");};
+	let Some(versions) = versions.as_array() else {return error("Http Post return.results[0].extensions[0].versions was not an array");};
+	let Some(first_version) = versions.get(0) else {return error("Http Post return.results[0].extensions[0].versions was empty");};
+	let Some(upload_version) = first_version.get("version") else {return error("Http Post return.results[0].extensions[0].versions[0] did not have entry 'version'");};
+	let Some(upload_version) = upload_version.as_str() else {return error("Http Post return.results[0].extensions[0].versions[0].versions was not a string");};
 	
 	// get version of current dir
 	let package = fs::read_to_string(repo_path.push_new("package.json"))?;

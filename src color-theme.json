@@ -13,7 +13,7 @@
 	
 	
 	Todo:
-	Add support for langauges:
+	Add support for languages:
 		Zig?
 	Make the theme generally less boring
 	Customize scroll bar area?
@@ -68,7 +68,7 @@
 		"activityBar.inactiveForeground": {"white": "#7C7C7C", "blue": "#000000B0"},
 		"activityBarBadge.background": "#008CE0",
 		
-		// area for files, extentions, etc
+		// area for files, extensions, etc
 		"sideBar.background": {"white": "#F6F7F9", "blue": "#B8D4FF"},
 		"sideBar.foreground": "#000000",
 		"sideBar.border": {"white": "#10102005", "blue": "#10102010"},
@@ -79,6 +79,7 @@
 		"list.activeSelectionForeground": "#000000",
 		"list.inactiveSelectionBackground": {"white": "#0090E040", "blue": "#0000FF18"},
 		"list.warningForeground": {"white": "#B87800", "blue": "#B88000"},
+		"list.errorForeground": {"white": "#D02020", "blue": "#C02020"},
 		"list.hoverBackground": "#0090E040",
 		
 		// tabs
@@ -121,8 +122,8 @@
 		
 		// git
 		"gitDecoration.modifiedResourceForeground": {"white": "#0040C0", "blue": "#0038D0"},
-		"gitDecoration.untrackedResourceForeground": {"white": "#108828", "blue": "#009020"},
-		"gitDecoration.ignoredResourceForeground": {"white": "#505050", "blue": "#584070"},
+		"gitDecoration.untrackedResourceForeground": {"white": "#088420", "blue": "#009000"},
+		"gitDecoration.ignoredResourceForeground": {"white": "#505050", "blue": "#484070"},
 		
 		// terminal
 		"terminal.background": "#FDFDFF",
@@ -187,7 +188,10 @@
 		},
 		{
 			"name": "Namespaces",
-			"scope": "entity.name.namespace",
+			"scope": [
+				"entity.name.namespace",
+				"variable.language.super.rust",
+			],
 			"settings": {
 				"foreground": "#003090"
 			}
@@ -363,14 +367,14 @@
 		
 		{
 			"name": "Toml Key",
-			"scope": "keyword.key.toml",
+			"scope": "support.type.property-name.toml",
 			"settings": {
 				"foreground": "#000000",
 			}
 		},
 		{
 			"name": "Toml Tag",
-			"scope": "meta.tag.table.toml",
+			"scope": "support.type.property-name.table.toml",
 			"settings": {
 				"foreground": "#0830D0",
 				"fontStyle": "bold"
