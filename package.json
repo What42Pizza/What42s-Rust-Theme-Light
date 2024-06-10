@@ -4,7 +4,7 @@
 	"displayName": "What42's Rust Theme (Light)",
 	"description": "A theme for Rust that focuses aggressively on readability",
 	"icon": "icon.png",
-	"version": "2.0.2",
+	"version": "2.1.0",
 	"publisher": "What42Pizza",
 	"license": "MIT",
 	"repository": {
@@ -56,6 +56,11 @@
 				"label": "What42's Rust Theme (Blue)",
 				"uiTheme": "vs",
 				"path": "./themes/What42's Rust Theme (Blue).json"
+			},
+			{
+				"label": "What42's Rust Theme (Midnight)",
+				"uiTheme": "vs",
+				"path": "./themes/What42's Rust Theme (Midnight).json"
 			}
 		]
 	}

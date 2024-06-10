@@ -5,8 +5,6 @@ use anyhow::*;
 
 pub trait PathBufTraits {
 	fn contains_file(&self, dir_name: &str) -> bool;
-	fn push_new(&self, path: impl AsRef<Path>) -> PathBuf;
-	fn pop_new(&self) -> PathBuf;
 }
 
 impl PathBufTraits for PathBuf {
@@ -15,16 +13,6 @@ impl PathBufTraits for PathBuf {
 			if path.expect("Could not process dir entry").file_name() == dir_name {return true;}
 		}
 		false
-	}
-	fn push_new(&self, path: impl AsRef<Path>) -> PathBuf {
-		let mut output = self.clone();
-		output.push(path);
-		output
-	}
-	fn pop_new(&self) -> PathBuf {
-		let mut output = self.clone();
-		output.pop();
-		output
 	}
 }
 
@@ -49,9 +37,9 @@ impl PathTraits for Path {
 
 pub fn get_repo_dir() -> PathBuf {
 	let mut output = get_program_dir();
-	while !output.contains_file("src color-theme.json") {
+	while !output.contains_file("package.json") {
 		let popped = output.pop();
-		if !popped {panic!("Could not find 'src color-theme.json' in any parent directories");}
+		if !popped {panic!("Could not find 'package.json' in any parent directories");}
 	}
 	output
 }

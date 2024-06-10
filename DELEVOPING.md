@@ -12,7 +12,7 @@
 ## Develop:
 
 - **1: In the 'builder' folder, run 'cargo run'** (or just run 'cargo -C ./builder -Z unstable-options run' from the main folder)
-- **2: Make changes to 'src color-theme.json', and the acutal theme files will automatically be updated**
+- **2: Make changes to 'src color-theme.json', and the actual theme files will automatically be updated**
 - **3: When done, enter 'Stop' (or 's') to stop the builder**
 
 <br>
@@ -28,14 +28,14 @@
 <br>
 <br>
 
-# Using the Node builder:
+# Using the Node builder: (OUTDATED)
 
 <br>
 
 ## Setup:
 
 - Make sure you can launch vscode extensions: https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme
-- Intall 'hjson' and 'fs-extras' through npm
+- Install 'hjson' and 'fs-extras' through npm
 - Every time you use the builders, make sure you're in the /builder folder
 
 <br>

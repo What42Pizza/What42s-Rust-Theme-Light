@@ -51,6 +51,8 @@
 - **JSON**
 - **Toml**
 - **Markdown**
+- **C#**
+- **XML**
 
 (Many more languages have some support, but not much)
 

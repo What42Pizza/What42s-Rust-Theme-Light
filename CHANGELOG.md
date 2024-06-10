@@ -7,6 +7,14 @@
 <br>
 <br>
 
+- 2.1.0
+  - Added support for:
+  - - C#
+  - - XML
+
+<br>
+<br>
+
 - 2.0.2 (24/01/19)
   - Fixed toml colors
   - Added 'super' (rust) to namespace color
@@ -38,7 +46,7 @@
 <br>
 
 - 1.4.9 (23/10/29)
-  - Increased vilibility of inlay hints and borders
+  - Increased visibility of inlay hints and borders
   - Updated Readme
   - - Added suggested theme: Yet Another Solarized Theme
   - - Added rating badge

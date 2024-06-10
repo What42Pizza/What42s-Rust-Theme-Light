@@ -1,15 +1,34 @@
 // settings
 
-const SRC_THEME_NAME: &str = "src color-theme.json";
-const OUTPUTS: &[(&str, &str)] = &[
-	("white", "What42's Rust Theme (White).json"),
-	("blue", "What42's Rust Theme (Blue).json"),
+const SRC_TO_THEME_LIST: &[SrcToThemeData] = &[
+	SrcToThemeData {
+		src_path: "src light-color-theme.json",
+		variations: &[
+			ThemeVariation {output_name: "What42's Rust Theme (White).json", src_name: "white"},
+			ThemeVariation {output_name: "What42's Rust Theme (Blue).json", src_name: "blue"},
+		],
+	},
+	SrcToThemeData {
+		src_path: "src dark-color-theme.json",
+		variations: &[
+			ThemeVariation {output_name: "What42's Rust Theme (Midnight).json", src_name: "dark"},
+		],
+	},
 ];
+
+pub struct SrcToThemeData {
+	pub src_path: &'static str,
+	pub variations: &'static [ThemeVariation],
+}
+
+pub struct ThemeVariation {
+	pub src_name: &'static str,
+	pub output_name: &'static str,
+}
 
 const FOLDERS_TO_EXPORT: &[&str] = &[
 	"themes",
 	"images",
-	//"node_modules",
 ];
 const FILES_TO_EXPORT: &[&str] = &[
 	"package.json",
@@ -26,6 +45,7 @@ const FILES_TO_EXPORT: &[&str] = &[
 mod data;
 mod utils;
 
+use std::path::Path;
 use std::{thread, time::Duration, path::PathBuf, fs};
 use reqwest::StatusCode;
 use serde_json::Value;
@@ -40,8 +60,11 @@ use anyhow::*;
 fn main() {
 	
 	let repo_path = get_repo_dir();
-	let src_theme_path = repo_path.push_new(SRC_THEME_NAME);
-	let themes_folder_path = repo_path.push_new("themes");
+	let src_theme_paths =
+		SRC_TO_THEME_LIST.iter().
+		map(|data| repo_path.join(data.src_path))
+		.collect::<Vec<_>>();
+	let themes_folder_path = repo_path.join("themes");
 	
 	static mut EXIT: bool = false;
 	
@@ -73,16 +96,21 @@ fn main() {
 		
 		// worker thread
 		|| {
-			let mut last_edit_time = src_theme_path.last_modified_time();
-			build_themes(&src_theme_path, &themes_folder_path);
+			let mut last_edit_times = vec!();
+			for (i, src_to_theme_data) in SRC_TO_THEME_LIST.iter().enumerate() {
+				build_all_variants(src_to_theme_data, &src_theme_paths[i], &themes_folder_path);
+				last_edit_times.push(src_theme_paths[i].last_modified_time());
+			}
 			loop {
 				thread::sleep(Duration::from_millis(100));
 				unsafe {if EXIT {return;}}
-				let new_edit_time = src_theme_path.last_modified_time();
-				if new_edit_time > last_edit_time {
-					last_edit_time = new_edit_time;
-					build_themes(&src_theme_path, &themes_folder_path);
-					thread::sleep(Duration::from_millis(1000));
+				for (i, src_to_theme_data) in SRC_TO_THEME_LIST.iter().enumerate() {
+					let new_edit_time = src_theme_paths[i].last_modified_time();
+					if new_edit_time > last_edit_times[i] {
+						last_edit_times[i] = new_edit_time;
+						build_all_variants(src_to_theme_data, &src_theme_paths[i], &themes_folder_path);
+						thread::sleep(Duration::from_millis(1000));
+					}
 				}
 			}
 		}
@@ -95,20 +123,20 @@ fn main() {
 
 
 
-pub fn build_themes(src_theme_path: &PathBuf, themes_folder_path: &PathBuf) {
-	let result = try_build_themes(src_theme_path, themes_folder_path);
+pub fn build_all_variants(src_to_theme_data: &SrcToThemeData, src_theme_path: &Path, themes_folder_path: &Path) {
+	let result = try_build_themes(src_to_theme_data, src_theme_path, themes_folder_path);
 	if let Err(err) = result {
 		println!("Error while building themes: {err}");
 	}
 }
 
-pub fn try_build_themes(src_theme_path: &PathBuf, themes_folder_path: &PathBuf) -> Result<()> {
+pub fn try_build_themes(src_to_theme_data: &SrcToThemeData, src_theme_path: &Path, themes_folder_path: &Path) -> Result<()> {
 	let src_theme = fs::read_to_string(src_theme_path)?;
 	let src_theme: Theme = deser_hjson::from_str(&src_theme)?;
 	
-	for (style, output_name) in OUTPUTS.iter().copied() {
-		let processed_theme = process_theme(&src_theme, style);
-		let processed_theme_path = themes_folder_path.push_new(output_name);
+	for variant in src_to_theme_data.variations.iter() {
+		let processed_theme = process_theme(&src_theme, &variant.src_name);
+		let processed_theme_path = themes_folder_path.join(&variant.output_name);
 		fs::write(processed_theme_path, serde_json::to_string(&processed_theme)?)?;
 	}
 	
@@ -125,7 +153,7 @@ pub fn process_theme(src_theme: &Theme, style: &str) -> Theme {
 	for (color_key, color) in &src_theme.colors {
 		let ColorValue::Diverge(styles) = color else {continue;};
 		let Some(result) = styles.get(style) else {
-			println!("Warning: src.colors.{color_key} does not have an option for style {style}.");
+			println!("Warning: src.{style}.colors.{color_key} does not have an option for style '{style}'.");
 			continue;
 		};
 		replacements.push((color_key.clone(), result.clone()));
@@ -140,14 +168,14 @@ pub fn process_theme(src_theme: &Theme, style: &str) -> Theme {
 	for (i, token_color) in src_theme.token_colors.iter().enumerate() {
 		if let Some(ColorValue::Diverge(styles)) = token_color.settings.get("foreground") {
 			let Some(result) = styles.get(style) else {
-				println!("Warning: src.tokenColors.{i}.settings.foreground does not have an option for style {style}.");
+				println!("Warning: src.{style}.tokenColors.{i}.settings.foreground does not have an option for style {style}.");
 				continue;
 			};
 			foreground_replacements.push((i, result.clone()));
 		}
 		if let Some(ColorValue::Diverge(styles)) = token_color.settings.get("background") {
 			let Some(result) = styles.get(style) else {
-				println!("Warning: src.tokenColors.{i}.settings.background does not have an option for style {style}.");
+				println!("Warning: src.{style}.tokenColors.{i}.settings.background does not have an option for style {style}.");
 				continue;
 			};
 			background_replacements.push((i, result.clone()));
@@ -189,7 +217,7 @@ const EMPTY_DIR_COPY_OPTIONS: DirCopyOptions = DirCopyOptions {
 };
 
 pub fn try_export_extension(repo_path: &PathBuf) -> Result<()> {
-	let output_path = repo_path.push_new("output");
+	let output_path = repo_path.join("output");
 	
 	let repo_path_clone = repo_path.clone();
 	thread::spawn(|| check_package_version(repo_path_clone));
@@ -200,10 +228,10 @@ pub fn try_export_extension(repo_path: &PathBuf) -> Result<()> {
 	fs::create_dir(&output_path)?;
 	
 	for dir_name in FOLDERS_TO_EXPORT.iter().copied() {
-		copy_dir(repo_path.push_new(dir_name), &output_path, &EMPTY_DIR_COPY_OPTIONS)?;
+		copy_dir(repo_path.join(dir_name), &output_path, &EMPTY_DIR_COPY_OPTIONS)?;
 	}
 	for file_name in FILES_TO_EXPORT.iter().copied() {
-		copy_file(repo_path.push_new(file_name), output_path.push_new(file_name), &EMPTY_FILE_COPY_OPTIONS)?;
+		copy_file(repo_path.join(file_name), output_path.join(file_name), &EMPTY_FILE_COPY_OPTIONS)?;
 	}
 	
 	Ok(())
@@ -254,7 +282,7 @@ pub fn try_check_package_version(repo_path: PathBuf) -> Result<()> {
 	let Some(upload_version) = upload_version.as_str() else {return error("Http Post return.results[0].extensions[0].versions[0].versions was not a string");};
 	
 	// get version of current dir
-	let package = fs::read_to_string(repo_path.push_new("package.json"))?;
+	let package = fs::read_to_string(repo_path.join("package.json"))?;
 	let package: Value = serde_json::from_str(&package)?;
 	let Some(package) = package.as_object() else {return error("Repo's package was not an object");};
 	let Some(repo_version) = package.get("version") else {return error("Repo's package did not have entry 'version'");};
