@@ -3,15 +3,19 @@
 <h1 align="center">What42's Rust Theme (Light)</h1>
 
 <p align="center">
-	<img src="https://vsmarketplacebadges.dev/version-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=357FE2&label=VERSION" alt="Version">&nbsp;
-	<img src="https://vsmarketplacebadges.dev/rating-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=0671FF&label=Rating" alt="Rating">&nbsp;
-	<img src="https://vsmarketplacebadges.dev/installs-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=0671FF&label=Installs" alt="Installs">&nbsp;
-	<img src="https://vsmarketplacebadges.dev/downloads-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=0671FF&label=Downloads" alt="Downloads">
+	<img src="https://vsmarketplacebadges.dev/version-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=FFD600&label=VERSION" alt="Version">&nbsp;
+	<img src="https://vsmarketplacebadges.dev/rating-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=FFD600&label=Rating" alt="Rating">&nbsp;
+	<img src="https://vsmarketplacebadges.dev/installs-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=FFD600&label=Installs" alt="Installs">&nbsp;
+	<img src="https://vsmarketplacebadges.dev/downloads-short/What42Pizza.what42s-rust-theme-light.png?style=for-the-badge&colorA=44444D&colorB=FFD600&label=Downloads" alt="Downloads">
 </p>
 
-<h3 align="center" style="font-weight: bold;">This is my personal VS Code theme, focused mainly on readability. It was originally inspired by / made because of <a href="https://www.youtube.com/@_codestyle">CodeStyle's</a> videos</p>
+<h3 align="center" style="font-weight: bold;">This is my personal VS Code theme, focused mainly on readability. It was originally inspired by / made because of <a href="https://www.youtube.com/@_codestyle">CodeStyle's</a> videos</h3>
 
-<h3 align="left" comment="this is needed to stop the image from being centered"></h3>
+<h4 align="center">Many color themes appear to prioritize looks and colors over readability, but not this one. I've combined every strategy that I know of to create the fastest reading code I've ever seen. And this isn't based on theory, I put every change and strategy to the test with an obscene amount of trail and error. The main strategies / rules employed are 1: dark text on a light background, 2: importance / noticeability matching (important items should stand out and vice-versa), and 3: distinct colors to break up otherwise monolithic text. Nearly every color theme breaks one or both of the first two rules, because if you think about it, they strongly conflict with the last rule for many varied reasons. It's almost impossible to fulfill all three rules at the same time, but I think I've been able to do it.</h4>
+
+<!--<h3 align="left" comment="this is needed to stop the image from being centered"></h3>-->
+
+<h1></h1>
 
 <br>
 
@@ -20,27 +24,28 @@
 ### These images use [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 <br>
+
+## Goals of this theme:
+
+#### **Readability**
+- **Text should be dark and should contrast against the background**
+- **Nothing should be distracting**
+#### **Bring attention to the right things**
+- **If it isn't important, it shouldn't stand out**
+- **If it's possibly bad (mut, self, etc), it should stand out as bad**
+#### **Pleasantness**
+- **It should be modern, colorful, simple, and just generally pleasant**
+
+### But it's not just that, this color theme has a secret super power: you forget that you're using it.
+
+Are you tired of constantly searching for a perfect theme? Are you tired of the nagging feeling that the theme you're using might not be the best you can get? Well, I'm proud to say that I rarely ever think about this theme, despite the fact that I'm constantly using it. When I create something that I'll actually use, one of my goals is to make it unobtrusive so you can focus on what's actually important, and that fact that I rarely every update this is proof that I've achieved my goal.
+
 <br>
 
-# Goals of this theme:
-
-### Readability
-  - **Text should be dark and should contrast against the background**
-  - **Nothing should be distracting**
-### Bring attention to the right things
-  - **If it isn't important, it shouldn't stand out**
-  - **If it's possibly bad (mut, self, etc), it should stand out as bad**
-### Pleasantness
-  - **It should be modern, colorful, simple, and just generally pleasant**
-
-<br>
-<br>
-
-# Entire screen example: &nbsp; (Blue and White themes)
+# Entire screen example &nbsp; (Blue and White themes)
 
 ![Entire screen example](images/entire_screen.png)
 
-<br>
 <br>
 
 ## First-class languages:
@@ -70,7 +75,6 @@ Unfortunately, I don't think I can change the color of 'unsafe' without sacrific
 
 If you want an alternate theme that colors 'unsafe', you can open an issue and I'll start working on it if I have the time (or you can make it yourself, this is under an MIT license).
 
-<br>
 <br>
 <br>
 
@@ -122,11 +126,11 @@ To edit these into your settings, you can open your settings.json file by openin
 - **[f.lux](https://justgetflux.com/)** (darkens screen at night)
 
 <br>
-<br>
 
 ## Other themes to check out:
 
 - **[Amethyst Themes](https://marketplace.visualstudio.com/items?itemName=amodio.amethyst-theme)** (dark only)
+- **[Winter Is Coming](https://marketplace.visualstudio.com/items?itemName=johnpapa.winteriscoming)** (dark and light)
 - **[Mimesis](https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis)** (light only)
 - **[Yet Another Solarized Theme](https://marketplace.visualstudio.com/items?itemName=JulianSchelb.yet-another-solarized-theme)** (dark and light)
 - **[Cerulean](https://marketplace.visualstudio.com/items?itemName=OwenWilliams.cerulean)** (dark and light)
@@ -142,6 +146,4 @@ To edit these into your settings, you can open your settings.json file by openin
 
 <br>
 
-## License
-
-This project is under the [MIT License](LICENSE)
+### License: &nbsp; [MIT](LICENSE)

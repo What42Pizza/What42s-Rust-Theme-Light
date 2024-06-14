@@ -7,7 +7,12 @@
 <br>
 <br>
 
-- 2.1.0
+- 2.1.1 (24/06/14)
+  - Substantially improved readme
+
+<br>
+
+- 2.1.0 (24/06/10)
   - Added support for:
   - - C#
   - - XML

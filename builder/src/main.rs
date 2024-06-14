@@ -1,6 +1,6 @@
 // settings
 
-const SRC_TO_THEME_LIST: &[SrcToThemeData] = &[
+const SRC_TO_THEME_DATAS: &[SrcToThemeData] = &[
 	SrcToThemeData {
 		src_path: "src light-color-theme.json",
 		variations: &[
@@ -61,7 +61,7 @@ fn main() {
 	
 	let repo_path = get_repo_dir();
 	let src_theme_paths =
-		SRC_TO_THEME_LIST.iter().
+		SRC_TO_THEME_DATAS.iter().
 		map(|data| repo_path.join(data.src_path))
 		.collect::<Vec<_>>();
 	let themes_folder_path = repo_path.join("themes");
@@ -97,14 +97,14 @@ fn main() {
 		// worker thread
 		|| {
 			let mut last_edit_times = vec!();
-			for (i, src_to_theme_data) in SRC_TO_THEME_LIST.iter().enumerate() {
+			for (i, src_to_theme_data) in SRC_TO_THEME_DATAS.iter().enumerate() {
 				build_all_variants(src_to_theme_data, &src_theme_paths[i], &themes_folder_path);
 				last_edit_times.push(src_theme_paths[i].last_modified_time());
 			}
 			loop {
 				thread::sleep(Duration::from_millis(100));
 				unsafe {if EXIT {return;}}
-				for (i, src_to_theme_data) in SRC_TO_THEME_LIST.iter().enumerate() {
+				for (i, src_to_theme_data) in SRC_TO_THEME_DATAS.iter().enumerate() {
 					let new_edit_time = src_theme_paths[i].last_modified_time();
 					if new_edit_time > last_edit_times[i] {
 						last_edit_times[i] = new_edit_time;
