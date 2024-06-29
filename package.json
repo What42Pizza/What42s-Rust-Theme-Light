@@ -4,7 +4,7 @@
 	"displayName": "What42's Rust Theme (Light)",
 	"description": "A theme for Rust that focuses aggressively on readability",
 	"icon": "icon.png",
-	"version": "2.1.0",
+	"version": "2.1.2",
 	"publisher": "What42Pizza",
 	"license": "MIT",
 	"repository": {

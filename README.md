@@ -13,8 +13,6 @@
 
 <h4 align="center">Many color themes appear to prioritize looks and colors over readability, but not this one. I've combined every strategy that I know of to create the fastest reading code I've ever seen. And this isn't based on theory, I put every change and strategy to the test with an obscene amount of trail and error. The main strategies / rules employed are 1: dark text on a light background, 2: importance / noticeability matching (important items should stand out and vice-versa), and 3: distinct colors to break up otherwise monolithic text. Nearly every color theme breaks one or both of the first two rules, because if you think about it, they strongly conflict with the last rule for many varied reasons. It's almost impossible to fulfill all three rules at the same time, but I think I've been able to do it.</h4>
 
-<!--<h3 align="left" comment="this is needed to stop the image from being centered"></h3>-->
-
 <h1></h1>
 
 <br>
@@ -25,16 +23,16 @@
 
 <br>
 
-## Goals of this theme:
+## Goals of this theme
 
 #### **Readability**
-- **Text should be dark and should contrast against the background**
-- **Nothing should be distracting**
+&nbsp; &nbsp; &nbsp; &nbsp; **Text should be dark and should contrast against the background** \
+&nbsp; &nbsp; &nbsp; &nbsp; **Nothing should be distracting**
 #### **Bring attention to the right things**
-- **If it isn't important, it shouldn't stand out**
-- **If it's possibly bad (mut, self, etc), it should stand out as bad**
+&nbsp; &nbsp; &nbsp; &nbsp; **If it isn't important, it shouldn't stand out** \
+&nbsp; &nbsp; &nbsp; &nbsp; **If it's possibly bad (mut, self, etc), it should stand out as bad**
 #### **Pleasantness**
-- **It should be modern, colorful, simple, and just generally pleasant**
+&nbsp; &nbsp; &nbsp; &nbsp; **It should be modern, colorful, simple, and just generally pleasant**
 
 ### But it's not just that, this color theme has a secret super power: you forget that you're using it.
 
@@ -48,37 +46,28 @@ Are you tired of constantly searching for a perfect theme? Are you tired of the 
 
 <br>
 
-## First-class languages:
+## First-class languages
 
-- **Rust**
-- **Lua**
-- **Glsl**
-- **JSON**
-- **Toml**
-- **Markdown**
-- **C#**
-- **XML**
+&nbsp; &nbsp; &nbsp; **Rust** \
+&nbsp; &nbsp; &nbsp; **Lua** \
+&nbsp; &nbsp; &nbsp; **Glsl** \
+&nbsp; &nbsp; &nbsp; **JSON** \
+&nbsp; &nbsp; &nbsp; **Toml** \
+&nbsp; &nbsp; &nbsp; **Markdown** \
+&nbsp; &nbsp; &nbsp; **C#** \
+&nbsp; &nbsp; &nbsp; **XML**
 
 (Many more languages have some support, but not much)
 
-<br>
+## Links
 
-## Links:
-
-- **[Changelog](CHANGELOG.md)**
-- **[Marketplace](https://marketplace.visualstudio.com/items?itemName=What42Pizza.what42s-rust-theme-light)**
-- **[GitHub](https://github.com/What42Pizza/What42s-Rust-Theme_Light)**
+&nbsp; &nbsp; &nbsp; &nbsp; **[Changelog](CHANGELOG.md)** \
+&nbsp; &nbsp; &nbsp; &nbsp; **[Marketplace](https://marketplace.visualstudio.com/items?itemName=What42Pizza.what42s-rust-theme-light)** \
+&nbsp; &nbsp; &nbsp; &nbsp; **[GitHub](https://github.com/What42Pizza/What42s-Rust-Theme_Light)**
 
 <br>
 
-Unfortunately, I don't think I can change the color of 'unsafe' without sacrificing other coloring abilities, but hopefully that will change sometime soon.
-
-If you want an alternate theme that colors 'unsafe', you can open an issue and I'll start working on it if I have the time (or you can make it yourself, this is under an MIT license).
-
-<br>
-<br>
-
-# Additional customizations:
+# Additional customizations
 
 ## Suggested settings:
 
@@ -123,26 +112,28 @@ To edit these into your settings, you can open your settings.json file by openin
 
 ## Suggested programs:
 
-- **[f.lux](https://justgetflux.com/)** (darkens screen at night)
+&nbsp; &nbsp; &nbsp; &nbsp; **[f.lux](https://justgetflux.com/)** (darkens screen at night)
 
 <br>
 
 ## Other themes to check out:
 
-- **[Amethyst Themes](https://marketplace.visualstudio.com/items?itemName=amodio.amethyst-theme)** (dark only)
-- **[Winter Is Coming](https://marketplace.visualstudio.com/items?itemName=johnpapa.winteriscoming)** (dark and light)
-- **[Mimesis](https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis)** (light only)
-- **[Yet Another Solarized Theme](https://marketplace.visualstudio.com/items?itemName=JulianSchelb.yet-another-solarized-theme)** (dark and light)
-- **[Cerulean](https://marketplace.visualstudio.com/items?itemName=OwenWilliams.cerulean)** (dark and light)
-- **[Kary Pro Colors](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes)** (dark and light)
-- **[MagicUser](https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes)** (dark and light)
-- **[Lightning](https://marketplace.visualstudio.com/items?itemName=zevross.lightning)** (dark and light)
+&nbsp; &nbsp; &nbsp; &nbsp; **[Amethyst Themes](https://marketplace.visualstudio.com/items?itemName=amodio.amethyst-theme)** (dark only) \
+&nbsp; &nbsp; &nbsp; &nbsp; **[Winter Is Coming](https://marketplace.visualstudio.com/items?itemName=johnpapa.winteriscoming)** (dark and light) \
+&nbsp; &nbsp; &nbsp; &nbsp; **[Mimesis](https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis)** (light only) \
+&nbsp; &nbsp; &nbsp; &nbsp; **[Yet Another Solarized Theme](https://marketplace.visualstudio.com/items?itemName=JulianSchelb.yet-another-solarized-theme)** (dark and light) \
+&nbsp; &nbsp; &nbsp; &nbsp; **[Cerulean](https://marketplace.visualstudio.com/items?itemName=OwenWilliams.cerulean)** (dark and light) \
+&nbsp; &nbsp; &nbsp; &nbsp; **[Kary Pro Colors](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes)** (dark and light) \
+&nbsp; &nbsp; &nbsp; &nbsp; **[MagicUser](https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes)** (dark and light) \
+&nbsp; &nbsp; &nbsp; &nbsp; **[Lightning](https://marketplace.visualstudio.com/items?itemName=zevross.lightning)** (dark and light)
 
 <br>
 <br>
 <br>
 
-### **I can't guarantee that I'll support other languages and/or take fixes or suggestions, but it's not impossible**
+I can't guarantee that I'll support other languages and/or take fixes or suggestions, but it's not impossible \
+Also, I don't think I can change the color of 'unsafe' without sacrificing other coloring abilities, but hopefully that will change sometime soon \
+If you want an alternate theme that colors 'unsafe', you can open an issue and I'll start working on it if I have the time (or you can make it yourself, this is under an MIT license)
 
 <br>
 

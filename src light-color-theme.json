@@ -34,7 +34,7 @@
 		"editor.background": {"white": "#FDFEFF", "blue": "#F1FAFF"},
 		"editor.foreground": "#000000",
 		"editorError.background": "#ff000008",
-		"editor.lineHighlightBackground": "#0000180B",
+		"editor.lineHighlightBackground": "#00001808",
 		"editor.selectionBackground": "#B4DFFF",
 		"editor.selectionHighlightBackground": "#B4DFFF80",
 		"editor.wordHighlightBackground": "#B4DFFF40",
@@ -496,9 +496,12 @@
 				"storage.modifier.static.cs",
 				"storage.modifier.const.cs",
 				"storage.modifier.ref.cs",
+				"storage.modifier.out.cs",
+				"storage.modifier.in.cs",
 				"storage.modifier.readonly.cs",
 				"storage.modifier.extern.cs",
 				"storage.type.namespace.cs",
+				"storage.type.delegate.cs",
 			],
 			"settings": {
 				"foreground": {"white": "#202C80", "blue": "#202D94"}

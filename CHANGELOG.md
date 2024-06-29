@@ -7,6 +7,13 @@
 <br>
 <br>
 
+- 2.1.2 (24/06/28)
+  - Slightly decreased opacity of line highlight
+  - Slightly improved C# support
+  - Slightly improved readme
+
+<br>
+
 - 2.1.1 (24/06/14)
   - Substantially improved readme
 
