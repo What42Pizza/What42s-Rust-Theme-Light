@@ -63,7 +63,7 @@ Are you tired of constantly searching for a perfect theme? Are you tired of the 
 
 &nbsp; &nbsp; &nbsp; &nbsp; **[Changelog](CHANGELOG.md)** \
 &nbsp; &nbsp; &nbsp; &nbsp; **[Marketplace](https://marketplace.visualstudio.com/items?itemName=What42Pizza.what42s-rust-theme-light)** \
-&nbsp; &nbsp; &nbsp; &nbsp; **[GitHub](https://github.com/What42Pizza/What42s-Rust-Theme_Light)**
+&nbsp; &nbsp; &nbsp; &nbsp; **[GitHub](https://github.com/What42Pizza/What42s-Rust-Theme-Light)**
 
 <br>
 
